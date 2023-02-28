@@ -1,3 +1,8 @@
+.container {
+    margin: 0 auto;
+    max-width: 1290px;
+}
+
 .hight-block {
     width: 100%;
     height: 95px;
@@ -7,9 +12,9 @@
 
 .flex-between {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    padding-top: 15px;
+    padding-top: 10px;
 }
 
 .hight-block_logo-text {
@@ -20,9 +25,13 @@
     width: 321px;
 }
 
+.hight-block_company-logo {
+    width: 126.11px;
+    height: 53.28px;
+}
+
 .hight-block_company-description {
     width: 167px;
-
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
@@ -36,12 +45,32 @@
     align-items: center;
 }
 
+.hight-block_company-data {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 142.19%;
+    color: #FFFFFF;
+}
+
+.hight-block_company-place {
+    width: 144px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 142.19%;
+    color: #FFFFFF;
+}
+
 .hight-block_time {
     display: flex;
     align-items: center;
 }
 
 .hight-block_adress {
+    margin-left: 20px;
     display: flex;
     align-items: center;
 }
@@ -95,4 +124,45 @@
     font-size: 16px;
     line-height: 156.69%;
 
+}
+
+.down-block {
+    width: 100%;
+    height: 76px;
+    background: #F3F3F3;
+    display: flex;
+    align-items: center;
+}
+
+.flex-down-nav {
+    display: flex;
+    
+}
+
+.down-block_nav {
+    display: flex;
+    padding-right: 250px;
+}
+
+.down-block_headings {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 156.69%;
+    color: #000000;
+    padding-right: 30px;
+}
+
+.down-block_search {
+    border: 1px solid rgba(45, 45, 45, 0.6);
+    width: 270px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #F3F3F3;
+}
+.down-blcok_search-in-site{
+    border: none;
 }
