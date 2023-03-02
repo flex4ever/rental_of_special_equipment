@@ -1,0 +1,88 @@
+.catalog__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 117px;
+    height: 34px;
+    border: 1px solid rgba(255, 191, 29, 0.27);
+    background-color: #F3F3F3;
+    cursor: pointer;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    color: #2D2D2D;
+}
+
+.catalog__btn_margin {
+    margin-left: 12px;
+    margin-top: 12px;
+}
+
+.catalog__btn_margin-top {
+    margin-top: 12px;
+}
+
+.menu__btn-filter {
+
+    width: 198px;
+    height: 50px;
+    margin-top: 28px;
+    background: #2D2D2D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu__btn-decor {
+    font-family: 'PT Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+.menu__icon-btn{
+    margin-top: 30px;
+    background-color:#FFFFFF ;
+    border: 0;
+    cursor: pointer;
+    margin-right: 36px;
+}
+.menu__card-btn{
+    margin-top: 20px;
+    margin-left: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 225px;
+    height: 50px;
+    background-color: #FCB427;
+}
+.menu__card-decor-btn{
+font-family: 'PT Sans', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 141.69%;
+color: #FFFFFF;
+}
+
+.help__btn{
+    display: flex;
+    width: 370px;
+    height: 50px;
+    background-color: #FCB427;
+    justify-content: center;
+    align-items: center;
+}
+.help__decor-btn{
+font-family: 'PT Sans', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 141.69%;
+color: #F1F1F1;
+}
