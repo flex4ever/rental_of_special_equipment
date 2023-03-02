@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1290px;
+}
+
+.rental {
+    background-image: url(../icons/slide-img.svg);
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-between;
+
+}
+.block-header-background-img-1{
+    background-image: url(../img/MAR_5245\ 1.png);
+    background-size: cover;
+    background-position: center;
+}
+.block-header-background-img-2{
+    background-image: url(../img/liebherr-lr-1250-unplugged-crawler-crane-zero-emission-battery-e-antrieb-rau\ копия\ 1.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.left-block_wraper-m {
+    margin-left: 217px;
+}
+
+.left-block {
+    padding-top: 103px;
+    width: 50%;
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.right-block {
+    width: 50%;
+}
+
+.left-block_yellow-line {
+
+    width: 264px;
+    height: 5px;
+    background: #FCB427;
+}
+
+.left-block_header-text {
+    padding-top: 20px;
+    width: 554px;
+    height: 124px;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 141.69%;
+    color: #2D2D2D;
+}
+
+.left-block_description-text {
+    width: 435px;
+    height: 75px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 156.69%;
+    color: #2D2D2D;
+    padding-top: 30px;
+}
+
+a.left-block_left-button {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+
+    outline: none;
+    border-width: 2px 0;
+    border-style: solid none;
+    border-color: #FCB427;
+    background-color: #FCB427;
+    transition: 0.2s;
+    width: 219px;
+    height: 50px;
+    color: #FFFFFF;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 141.69%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a.left-block_left-button:hover {
+    background: linear-gradient(#f5ae00, #f59500) #f5ae00;
+}
+
+a.left-block_left-button:active {
+    background: linear-gradient(#f59500, #f5ae00) #f59500;
+}
+
+a.left-block_right-button {
+    display: inline-block;
+    color: #2D2D2D;
+    text-decoration: none;
+    outline: none;
+    border-width: 2px 0;
+    border: 1px solid #2D2D2D;
+    border-color: #2D2D2D;
+    transition: 0.2s;
+    width: 219px;
+    height: 50px;
+    color: #2D2D2D;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 141.69%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.left-block_all-buttons {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    width: 466px;
+}
+
+.left-block_button-left {
+
+    position: relative;
+    bottom: 0px;
+    right: 0px;
+}
+
+.under-rental {
+    width: 100%;
+    height: 139px;
+    background-color: #F3F3F3;
+}
+
+.under-rental_buttons-slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    bottom: 66px;
+
+}
