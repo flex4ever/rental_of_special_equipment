@@ -19,16 +19,26 @@
     display: flex;
     justify-content: space-between;
 
+
 }
-.block-header-background-img-1{
-    background-image: url(../img/MAR_5245\ 1.png);
+
+.block-header-background-img-1 {
+    background-image: url(../img/bashennye-krany-montazh-remont-pusk-naladka-to-bO4btbqP.jpg);
     background-size: cover;
     background-position: center;
+
+
 }
-.block-header-background-img-2{
+
+.not-active-background {
+    background-image: none !important;
+}
+
+.block-header-background-img-2 {
     background-image: url(../img/liebherr-lr-1250-unplugged-crawler-crane-zero-emission-battery-e-antrieb-rau\ копия\ 1.png);
     background-size: cover;
     background-position: center;
+
 }
 
 .left-block_wraper-m {
@@ -143,6 +153,29 @@ a.left-block_right-button {
     bottom: 0px;
     right: 0px;
 }
+.right-block_score{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 120px;
+    margin-top: 52px;
+}
+.right-block_score-text {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 23px;
+    color: #E2E2E2;
+}
+
+.right-block_score-slide {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 47px;
+    color: #F1F1F1;
+}
 
 .under-rental {
     width: 100%;
@@ -157,4 +190,10 @@ a.left-block_right-button {
     position: relative;
     bottom: 66px;
 
+}
+
+.under-rental_title {
+    position: relative;
+    bottom: 131px;
+    left: 1255px;
 }
