@@ -1,0 +1,260 @@
+footer {
+    background-color: #2D2D2D;
+    width: 100%;
+    height: 278px;
+}
+
+.footer {
+   display: flex;
+   justify-content: space-evenly;
+}
+
+.footer__about {
+    margin-top: 54px;
+    display: flex;
+    flex-direction: column;
+}
+.footer__about-three {
+    margin-top: 54px;
+    display: flex;
+    flex-direction: column;
+}
+.footer__about-four {
+    margin-top: 54px;
+    display: flex;
+    flex-direction: column;
+}
+.footer__about-five {
+    margin-top: 54px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__about-one {
+    margin-top: 54px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__about-two {
+    margin-top: 54px;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__photo {
+    width: 169px;
+    height: 91px;
+}
+
+.footer__text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+
+    color: #FFFFFF;
+}
+
+.footer__text_margin-one {
+    margin-top: 11px;
+    width: 155px;
+    height: 25px;
+}
+
+.footer__text_margin-two {
+    margin-top: 28px;
+    font-size: 12px;
+    line-height: 160%;
+    /* identical to box height, or 16px */
+    color: #B5B5B5;
+
+}
+
+.footer__list-margin-three {
+    margin-top: 7px;
+    width: 193px;
+    height: 39px;
+
+}
+
+.footer__text_about {
+    width: 61px;
+    height: 15px;
+    font-size: 13px;
+    line-height: 15px;
+}
+
+.footer__list {
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+}
+
+.footer__list-main {
+
+    font-size: 13px;
+    line-height: 15px;
+
+    color: #FFFFFF;
+}
+
+
+.footer__list-margin-one {
+    margin-top: 15px;
+
+
+}
+
+.footer__list-margin-two {
+    margin-top: 7px;
+}
+
+.footer__list-line-height {
+    line-height: 160%;
+    /* or 19px */
+}
+
+.footer__block {
+    align-items: center;
+    justify-content: center;
+    background: #FFFFFF;
+    width: 170px;
+    height: 43px;
+    display: flex;
+
+}
+
+.footer__text-one {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 141.69%;
+    /* or 21px */
+
+
+    color: #000000;
+}
+
+.footer__photo-one {
+    width: 22px;
+    height: 22px;
+}
+
+.footer__img {
+    justify-content: space-around;
+    display: flex;
+    margin-top: 24px;
+}
+
+.footer__about-left {
+    display: none;
+}
+
+.footer__about-right {
+    display: none;
+}
+@media (max-width: 800px) {
+    footer {
+        height: 397px;
+    }
+
+    .footer__photo {
+        width: 116px;
+        height: 46px;
+    }
+
+    .footer__text_margin-one {
+        font-size: 11px;
+        line-height: 13px;
+        
+    }
+
+    .footer__text_margin-two {
+        margin-top: 138px;
+        font-size: 10px;
+        line-height: 160%;
+        
+    }
+    .footer__about-left {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .footer__about-one {
+        margin-right: 40px;
+    }
+
+    .footer__about-two {
+        margin-right: 40px;
+    }
+
+    .footer__about-right {
+        display: flex;
+        justify-content: flex-end;
+        position: relative;
+        bottom: 100px;
+    }
+
+    .footer {
+        display: none;
+    }
+    
+}
+
+@media (max-width: 320px) {
+    footer {
+        height: 793px;
+    }
+
+    .footer__about-left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer__about-right {
+        
+        justify-content: center;
+        display: flex;
+    }
+
+    .footer__about-two {
+        display: none;
+    }
+    .footer__text_margin-two{
+        display: none;
+    }
+    .footer__text_margin-three{
+        margin-top: 30px;
+    }
+    .footer__about-three{
+        display: flex;
+        margin-right: 185px;
+    }
+    .footer__about-four{
+        position: relative;
+        bottom: 426px;
+        margin-left: 166px;
+    }
+    .footer__about-five{
+        margin-top: 23px;
+        margin-right: 98px;
+    }
+    .footer__about-one{
+        margin-top: 0px;
+        margin-right: 0px;
+    }
+    .footer__about{
+        margin-left: 15px;
+    }
+}

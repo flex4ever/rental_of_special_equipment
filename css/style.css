@@ -1,3 +1,4 @@
+@import url(./footer.css);
 * {
     font-family: 'Montserrat', sans-serif;
     font-family: 'PT Sans', sans-serif;
@@ -8,102 +9,7 @@
 }
 
 .container {
+    
     margin: 0 auto;
-    max-width: 1600px;
-}
-
-.block-photo-text {
-    display: flex;
-}
-
-.black-block__gray-stripe {
-    display: flex;
-    background: #232323;
-    background-repeat: no-repeat;
-    background-image: url(../img/black-block.png);
-    width: auto;
-    height: 493px;
-
-}
-
-.text-one-black-block {
-    font-family: 'PT Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 40px;
-    line-height: 141.69%;
-    /* identical to box height, or 57px */
-
-
-    color: #FFFFFF;
-}
-
-.black-text-one {
-    margin-top: 56px;
-    display: flex;
-}
-
-.flex-wrap-block-one {
-    margin-top: 30px;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-}
-
-.flex-wrap-block-two {
-    margin-top: 30px;
-    margin-left: 30px;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-}
-
-.photo-flex-wrap {
-    width: 135px;
-    height: 95px;
-}
-
-.text-one-flex-wrap {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 156.69%;
-    /* or 25px */
-    
-    text-align: center;
-    
-    color: #FFFFFF;
-}
-
-.block-text-flex {width: 270px;
-    line-height: 156.69%;
-    /* or 25px */
-    display: flex;
-    margin-top: 25px;
-}
-
-.yellow-block {
-    margin-top: 50px;
-    background-repeat: no-repeat;
-    background-image: url(../img/car-block.png);
-    width: auto ;
-    height: 328px;
-    
-}
-.text-black{
-    font-family: 'PT Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 33px;
-    line-height: 142.19%;
-    color:black;
-}
-.yellow-text{
-    font-family: 'PT Sans';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 33px;
-    line-height: 142.19%;
-    color: #FF971D;
+    max-width: 1700px;
 }
