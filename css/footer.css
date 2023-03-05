@@ -229,7 +229,7 @@ footer {
     }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 500px) {
     footer {
         height: 793px;
     }
@@ -260,7 +260,7 @@ footer {
 
     .footer__about-three {
         display: flex;
-        margin-right: 185px;
+        margin-right: 149px;
     }
 
     .footer__about-four {
@@ -271,7 +271,7 @@ footer {
 
     .footer__about-five {
         margin-top: 23px;
-        margin-right: 98px;
+        margin-right: 60px;
     }
 
     .footer__about-one {
