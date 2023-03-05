@@ -185,7 +185,7 @@
     display: none;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1200px) {
 
     .menu_icon {
         display: block;
@@ -239,6 +239,7 @@
         height: 100%;
         background-color: #2D2D2D;
         padding: 100px 30px 30px 30px;
+        margin-top: 91px;
         transition: left 0.3s ease 0s;
         overflow: auto;
     }
@@ -283,7 +284,7 @@
     }
 
 }
-@media (max-width: 320px) {
+@media (max-width: 630px) {
     .down-block_search {
         z-index: 3;
         margin-left: 120px;
@@ -344,6 +345,7 @@
         background-color: #2D2D2D;
         padding: 100px 30px 30px 30px;
         transition: left 0.3s ease 0s;
+        margin-top: 230px;
         overflow: auto;
     }
 
