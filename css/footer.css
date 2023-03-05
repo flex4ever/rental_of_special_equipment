@@ -1,12 +1,14 @@
 footer {
+    margin-top: -10px;
     background-color: #2D2D2D;
     width: 100%;
     height: 278px;
 }
 
 .footer {
-   display: flex;
-   justify-content: space-evenly;
+    
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .footer__about {
@@ -14,16 +16,19 @@ footer {
     display: flex;
     flex-direction: column;
 }
+
 .footer__about-three {
     margin-top: 54px;
     display: flex;
     flex-direction: column;
 }
+
 .footer__about-four {
     margin-top: 54px;
     display: flex;
     flex-direction: column;
 }
+
 .footer__about-five {
     margin-top: 54px;
     display: flex;
@@ -163,6 +168,12 @@ footer {
 .footer__about-right {
     display: none;
 }
+
+.map__adaptiv {
+    width: 100%;
+    height: 540px;
+}
+
 @media (max-width: 800px) {
     footer {
         margin-top: -10px;
@@ -177,15 +188,16 @@ footer {
     .footer__text_margin-one {
         font-size: 11px;
         line-height: 13px;
-        
+
     }
 
     .footer__text_margin-two {
         margin-top: 138px;
         font-size: 10px;
         line-height: 160%;
-        
+
     }
+
     .footer__about-left {
         display: flex;
         justify-content: space-evenly;
@@ -209,10 +221,11 @@ footer {
     .footer {
         display: none;
     }
-    .map__adaptiv{
+
+    .map__adaptiv {
         width: 800px;
         height: 400px;
-        
+
     }
 }
 
@@ -228,7 +241,7 @@ footer {
     }
 
     .footer__about-right {
-        
+
         justify-content: center;
         display: flex;
     }
@@ -236,33 +249,41 @@ footer {
     .footer__about-two {
         display: none;
     }
-    .footer__text_margin-two{
+
+    .footer__text_margin-two {
         display: none;
     }
-    .footer__text_margin-three{
+
+    .footer__text_margin-three {
         margin-top: 30px;
     }
-    .footer__about-three{
+
+    .footer__about-three {
         display: flex;
         margin-right: 185px;
     }
-    .footer__about-four{
+
+    .footer__about-four {
         position: relative;
         bottom: 426px;
         margin-left: 166px;
     }
-    .footer__about-five{
+
+    .footer__about-five {
         margin-top: 23px;
         margin-right: 98px;
     }
-    .footer__about-one{
+
+    .footer__about-one {
         margin-top: 0px;
         margin-right: 0px;
     }
-    .footer__about{
+
+    .footer__about {
         margin-left: 15px;
     }
-    .map__adaptiv{
+
+    .map__adaptiv {
         width: 320px;
         height: 331px;
     }
