@@ -181,7 +181,7 @@ footer {
     }
 
     .footer__photo {
-        width: 116px;
+        width: 100%;
         height: 46px;
     }
 
@@ -223,7 +223,7 @@ footer {
     }
 
     .map__adaptiv {
-        width: 800px;
+        width: 100%;
         height: 400px;
 
     }
@@ -284,7 +284,7 @@ footer {
     }
 
     .map__adaptiv {
-        width: 320px;
+        width: 100%;
         height: 331px;
     }
 }
