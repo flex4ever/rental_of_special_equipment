@@ -165,6 +165,7 @@ footer {
 }
 @media (max-width: 800px) {
     footer {
+        margin-top: -10px;
         height: 397px;
     }
 
@@ -208,7 +209,11 @@ footer {
     .footer {
         display: none;
     }
-    
+    .map__adaptiv{
+        width: 800px;
+        height: 400px;
+        
+    }
 }
 
 @media (max-width: 320px) {
@@ -256,5 +261,9 @@ footer {
     }
     .footer__about{
         margin-left: 15px;
+    }
+    .map__adaptiv{
+        width: 320px;
+        height: 331px;
     }
 }
