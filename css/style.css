@@ -92,6 +92,7 @@
     
 }
 .text-black{
+    padding-top: 50px;
     font-family: 'PT Sans';
     font-style: normal;
     font-weight: 700;
@@ -100,10 +101,14 @@
     color:black;
 }
 .yellow-text{
+    
     font-family: 'PT Sans';
     font-style: normal;
     font-weight: 700;
     font-size: 33px;
     line-height: 142.19%;
     color: #FF971D;
+}
+.block__text{
+    display: flex;
 }
