@@ -1,22 +1,139 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Контакты</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
-</head>
-<body>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
     <div class="container">
-        <div class="way">
-            <a href="@" class="way__link">Главная</a>
-            <p class="way__link">&nbsp;-&nbsp;</p>
-            <p class="way__decor">Каталог техники</p>
-        </div>
+      <div class="way">
+        <a href="@" class="way__link">Главная</a>
+        <p class="way__link">&nbsp;-&nbsp;</p>
+        <p class="way__decor">Каталог техники</p>
+      </div>
     </div>
-</body>
+    <div class="contacts">
+      <div class="container">
+        <div class="contacts__main-flex">
+          <div class="contacts__block">
+            <p class="contacts__main">Контакты</p>
+
+            <div class="contacts__text">
+              <div class="contacts__flex-one">
+                <img src="./icons/placeholder 1.svg" alt="" />
+                <p class="contacts__decor contacts__decor_ml">
+                  г. Москва, Россия, 117628,м. Бульвар Дмитрия Донского, ул.
+                  <br />
+                  Куликовская, 12
+                </p>
+              </div>
+              <div class="contacts__flex">
+                <div class="contacts__phone">
+                  <img src="./icons/phone-call 1.svg" alt="" />
+                  <div class="contacts__numbers contacts__numbers_ml">
+                    <p class="contacts__decor">+7 (499)929-96-66</p>
+                    <p class="contacts__decor">+7 (985)364-55-18</p>
+                    <p class="contacts__decor">+7 (985)226-20-30</p>
+                  </div>
+                </div>
+                <div class="contacts__flex-two contacts__flex-two_marign">
+                  <div class="contacts__mail contacts__mail_marign">
+                    <img src="./icons/Vector.svg" alt="" />
+                    <p class="contacts__decor contacts__decor_ml">
+                      evro-k@yandex.ru
+                    </p>
+                  </div>
+                  <div class="contacts__clock contacts__clock_mt">
+                    <img src="./icons/clock.svg" alt="" />
+                    <p class="contacts__decor contacts__decor_ml">
+                      10:00 - 17:00
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="contacts__requisites">
+                <h7 class="contacts__requisites-title">Реквизиты</h7>
+                <div class="contacts__requests_icon-and-txt">
+                    <img src="/icons/file 1.svg" alt="">
+                    <div class="contacts__requisites-txt">
+                    <p class="contacts__requisites-txt-desc">ООО "Компания Еврокран" </p>
+                    <p class="contacts__requisites-txt-desc">ИНН: 7718999293</p>
+                    <p class="contacts__requisites-txt-desc">ОРГН: 5147746130593</p>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="contacts__block-two">
+            <div class="contacts__inputs">
+              <input class="contacts__name" type="text" placeholder="Имя" />
+              <div class="contacts_inputs-block">
+                <input
+                  class="contacts__inp-text"
+                  type="email"
+                  placeholder="E-mail"
+                />
+                <input
+                  class="contacts__inp-text contacts__inp-text_margin"
+                  type="number"
+                  placeholder="Телефон"
+                />
+              </div>
+              <div class="contacts__message">
+                <textarea placeholder="Сообщение"></textarea>
+              </div>
+              <div class="contacts__checkbox">
+                <input
+                  class="contacts__custom-checkbox"
+                  type="checkbox"
+                  id="cont"
+                />
+                <label for="cont">
+                  <p class="contacts__checkbox-text-decor">
+                    Я согласен с
+                    <a class="contacts__checkbox-a-decor" href="">
+                      условиями обработки</a
+                    >
+                    и использования моих персональных данных
+                  </p>
+                </label>
+              </div>
+              <button class="contacts__btn" id="modal">
+                <p class="contacts__decor-btn">Оставить заявку</p>
+              </button>
+            </div>
+            <div id="modal" class="contacts__modal">
+              <div class="contacts__modal-content">
+                <button id="modalOff" class="contacs-icon">
+                  <img
+                    class=""
+                    src="./icons/contacts/akar-icons_cross.svg"
+                    alt=""
+                  />
+                </button>
+                <p class="contacts__modal-text-one">Ваша заявка отправлена</p>
+                <p class="contacts__modal-text-two">
+                  Мы позвоним вам в самое ближайшее время
+                </p>
+                <button id="modalOff-2" class="contacts__modal-btn">
+                  <p class="contacts__modal-btn-text">Вернуться</p>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="contacts__road">
+            <p class="contacts__road-heading">Как добраться:</p>
+            <p class="contacts__road-txt">Принимая во внимание показатели успешности, глубокий уровень погружения играет определяющее значение для прогресса профессионального сообщества. Лишь предприниматели в сети интернет, которые представляют собой яркий пример континентально-европейского типа политической культуры, будут ограничены исключительно образом мышления. Кстати, активно развивающиеся страны третьего мира смешаны с не уникальными данными до степени совершенной неузнаваемости, из-за чего возрастает их статус бесполезности.</p>
+        </div>
+      </div>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
 </html>
