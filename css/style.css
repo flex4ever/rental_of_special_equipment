@@ -338,38 +338,45 @@ a.right-block_button:active {
 }
 
 .special-equipment_line {
-    background-color: #535554;
+    background-color: #C4C4C4;
     width: 139px;
     height: 4px;
 }
 
 .special-equipment_line1 {
-    background-color: #535554;
+    background-color: #C4C4C4;
     width: 139px;
     height: 4px;
 }
 
 .special-equipment_line2 {
-    background-color: #535554;
+    background-color: #C4C4C4;
     width: 139px;
     height: 4px;
 }
 
 .special-equipment_line3 {
-    background-color: #535554;
+    background-color: #C4C4C4;
     width: 139px;
     height: 4px;
 }
 
-.not_active-line {
-    background-color: #C4C4C4 !important;
-    width: 138.1px;
+.active-line {
+    background-color: #535554 !important;
+    width: 139px;
     height: 4px;
-    
+
 }
 
 .special-equipment_lines {
     display: flex;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    width: 556px;
+    height: 4px;
+    background-color: #C4C4C4;
+
 }
 
 .description-laise {}
