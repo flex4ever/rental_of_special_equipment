@@ -515,4 +515,53 @@
         position: relative;
         margin-top: 40px;
     }
+    .contacts__modal {
+        margin-left: 13px;
+        margin-top: 41px;
+        width: 290px;
+        height: 285px;
+    }
+    .contacts__modal-text-one {
+        margin-left: 34px;
+        margin-top: -88px;
+        font-family: 'PT Sans', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 142.19%;
+        color: #2D2D2D;
+    }
+    .contacts__modal-btn {
+        margin-left: 35px;
+        margin-top: 42px;
+        width: 220px;
+        height: 50px;
+        border: 1px solid #FFBF1D;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+    .contacts__modal-text-two {
+        margin-left: -2px;
+        margin-top: 18px;
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 142.19%;
+        text-align: center;
+        color: #2D2D2D;
+    }
+    .contacts__modal-icon{
+        margin-top: 1px;
+    }
+    .contacs-icon {
+        margin-top: 107px;
+        margin-left: 258px;
+        background: rgba(243, 243, 243, 0.7);
+        backdrop-filter: blur(7px);
+        border: 0;
+        cursor: pointer;
+    }
 }
