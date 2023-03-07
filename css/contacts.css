@@ -533,6 +533,21 @@ input[type='email'] {
         max-width: 900px !important;
     }
 
+    .contacts__modal {
+        margin-left: 200px;
+        margin-top: 160px;
+        width: 620px;
+        height: 403px;
+        background: rgba(243, 243, 243, 0.7);
+        backdrop-filter: blur(7px);
+        position: fixed;
+        z-index: 10;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        right: 0;
+    }
+
     .contacts__flex-two_marign {
         margin-left: 0px;
     }
@@ -599,11 +614,27 @@ input[type='email'] {
         max-width: 738px !important;
     }
 
+    .contacts__modal {
+        margin-left: 90px;
+        margin-top: 160px;
+        width: 620px;
+        height: 403px;
+        background: rgba(243, 243, 243, 0.7);
+        backdrop-filter: blur(7px);
+        position: fixed;
+        z-index: 10;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        right: 0;
+    }
+
     .contacts__block-two {
         margin-top: 1px;
         margin-left: 1px;
         position: relative;
     }
+
     .contacts__btn {
         margin-top: 20px;
         display: flex;
@@ -615,6 +646,7 @@ input[type='email'] {
         cursor: pointer;
         border: 0;
     }
+
     /*  */
 }
 
@@ -663,10 +695,61 @@ input[type='email'] {
         align-items: center;
         flex-wrap: wrap;
     }
-    .contacts__road{
+
+    .contacts__road {
         display: none;
     }
-    .contacts__block-two{
+
+    .contacts__block-two {
         margin-top: 50px;
+    }
+
+    .contacts__modal {
+        margin-left: 0px;
+        margin-top: 160px;
+        width: 100%;
+        height: 403px;
+        background: rgba(243, 243, 243, 0.7);
+        backdrop-filter: blur(7px);
+        position: fixed;
+        z-index: 10;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        right: 0;
+    }
+
+    .contacts__modal-text-one {
+        margin-left: 100px;
+        margin-top: 22px;
+        font-family: 'PT Sans', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 33px;
+        line-height: 142.19%;
+        color: #2D2D2D;
+    }
+
+    .contacts__modal-text-two {
+        margin-left: 90px;
+        margin-top: 16px;
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 142.19%;
+        color: #2D2D2D;
+    }
+
+    .contacts__modal-btn {
+        margin-left: 89px;
+        margin-top: 20px;
+        width: 220px;
+        height: 50px;
+        border: 1px solid #FFBF1D;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
     }
 }
