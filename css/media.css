@@ -1,0 +1,518 @@
+*:before,
+*:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:active,
+:hover,
+:focus {
+    outline: 0;
+    outline-offset: 0;
+}
+
+@media (max-width:800px) {
+    .menu__back-text_position-one {
+        display: none;
+    }
+
+    .menu__back-text_position-two {
+        display: none;
+    }
+
+    .menu__one-card__delete {
+        display: none;
+    }
+
+    .help_inputs {
+        display: flex;
+        justify-content: space-between;
+        width: 1170px;
+        flex-direction: column;
+    }
+
+    .contacts__decor_width {
+        width: 347px;
+    }
+
+    .catalog__btn {
+        width: 114px;
+        height: 33px;
+    }
+
+    .catalog__btn_delete {
+        display: none;
+    }
+
+    .container {
+        max-width: 770px;
+    }
+
+    .menu__filter-one {
+        width: 226px;
+        height: 755px;
+    }
+
+    .menu__block-with-text {
+        width: 226px;
+        height: 56px;
+    }
+
+    .menu__block-with-text {
+        width: 226px;
+        height: 56px;
+    }
+
+    .menu__filter-flex-two {
+        width: 226px;
+    }
+
+    .menu__filter-two {
+        margin-top: 50px;
+        background-color: #FFFFFF;
+        width: 226px;
+        height: 369px;
+    }
+
+    .page-list {
+        display: flex;
+        justify-content: center;
+        margin-left: 245px;
+        margin-top: 48px;
+        align-items: flex-end;
+    }
+
+    .contacts__name {
+        width: 331px;
+        height: 50px;
+    }
+
+    .contacts_inputs-block {
+        display: flex;
+        margin-top: 20px;
+        flex-direction: column;
+    }
+
+    .contacts__inp-text {
+        width: 331px;
+        height: 50px;
+    }
+
+    .contacts__inp-text {}
+
+    .contacts__message textarea {
+        width: 354px;
+        height: 50px;
+    }
+
+    .contacts__inp-text_margin {
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+
+    .contacts__text {
+        width: 331px;
+        margin-top: 51px;
+    }
+
+    .contacts__btn {
+        width: 354px;
+        height: 50px;
+    }
+
+    input[type='text'] {
+        padding-left: 21px;
+    }
+
+    .contacts__inp-text {
+        padding-left: 21px;
+    }
+
+    input[type='number'] {
+        padding-left: 21px;
+    }
+
+    .contacts__message textarea {
+        padding-left: 21px;
+        padding-top: 13px;
+    }
+
+    .menu__one-card {
+        margin-left: 30px;
+        width: 226px;
+        height: 493px;
+        background-color: #FFFFFF;
+    }
+
+    .help_inputs {
+        display: flex;
+        justify-content: space-between;
+        width: 0;
+        flex-direction: column;
+    }
+
+    .menu__card-img {
+        width: 226px;
+        height: 218px;
+    }
+
+    .menu__back-img {
+        background-image: url(../img/main/Mask\ Group.png);
+        width: 226px;
+        height: 81px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+    }
+
+    .menu__card-btn {
+        margin-top: 20px;
+        margin-left: 24px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 188.33px;
+        height: 50px;
+        background-color: #FCB427;
+    }
+
+    .menu__card-text-two {
+        width: 103px;
+        height: 44px;
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 156.69%;
+        color: #2D2D2D;
+    }
+
+    .menu__card-br {
+        display: block;
+    }
+
+    .contacts__flex {
+        display: flex;
+        margin-top: 24px;
+        flex-direction: column-reverse;
+    }
+
+    .contacts__flex-two_marign {
+        margin-left: 0px;
+    }
+
+    .contacts__block-two {
+        margin-top: 17px;
+        margin-left: 38px;
+        position: relative;
+    }
+
+    .contacts {
+        margin-top: 120px;
+        width: 100%;
+        height: 675px;
+        background: #FFFFFF;
+    }
+
+    .help__input {
+        width: 347px;
+        height: 50px;
+        margin-top: 30px;
+    }
+
+    .help__btn {
+        margin-top: 30px;
+    }
+
+    .help_inputs {
+        margin-left: 40px;
+    }
+
+    .help_inputs {
+        margin-top: -35px;
+    }
+
+    .help {
+        margin-top: 120px;
+        background-image: url(../img/main/Slice\ 3.png);
+        width: 100%;
+        height: 588px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .contacts__clock {
+        display: none;
+    }
+
+    .contacts__phone {
+        margin-top: 15px;
+    }
+
+
+    .contacts__checkbox-text-decor {
+        width: 260px;
+        height: 26px;
+    }
+
+    .contacts__modal {
+        margin-left: 99px;
+        margin-top: 41px;
+    }
+
+    .catalog {
+        margin-top: 59px;
+    }
+}
+
+@media (max-width:320px) {
+    .catalog__btns {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .container {
+        max-width: 290px;
+    }
+
+    .menu__filter {
+        display: block;
+        position: absolute;
+        left: -1000px;
+        transition: 0.8s ease 0s;
+    }
+
+    .menu {
+        overflow: hidden;
+    }
+
+    .contacts__main-flex {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .menu__three-card {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .page-list {
+        display: flex;
+        justify-content: center;
+        margin-left: 0px;
+        margin-top: 48px;
+        align-items: flex-end;
+    }
+
+    .help__input {
+        width: 268px;
+        height: 50px;
+        margin-top: 30px;
+    }
+
+    .help__btn {
+        display: flex;
+        width: 291px;
+        height: 50px;
+        background-color: #FCB427;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .help_inputs {
+        margin-left: 0px;
+    }
+
+    .contacts__decor_width {
+        width: 291px;
+    }
+
+    .contacts__text {
+        width: 291px;
+        margin-top: 51px;
+    }
+
+    .contacts__name {
+        width: 267px;
+        height: 50px;
+    }
+
+    .contacts__inp-text {
+        width: 267px;
+        height: 50px;
+    }
+
+    .contacts__message textarea {
+        width: 290px;
+        height: 50px;
+    }
+
+    .contacts__btn {
+        width: 290px;
+        height: 50px;
+    }
+
+    .contacts__block-two {
+        margin-top: 17px;
+        margin-left: 0px;
+        position: relative;
+    }
+
+    .catalog__btn_margin {
+        margin-left: 0px;
+        margin-top: 12px;
+    }
+
+    .catalog__btns_margin {
+        margin-top: 42px;
+    }
+
+    .menu__one-card {
+        margin-top: 30px;
+        margin-left: 0px;
+        width: 290px;
+        height: 531px;
+        background-color: #FFFFFF;
+    }
+
+    .menu__back-img {
+        background-image: url(../icons/menu/Заголовок.png);
+        width: 290px;
+        height: 81px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        display: flex;
+        align-items: center;
+    }
+
+    .menu__card-img {
+        background-image: url(../icons/menu/фото.png);
+        background-repeat: no-repeat;
+        width: 290px;
+        height: 218px;
+        background-size: cover;
+    }
+
+    .menu__card-br {
+        display: none;
+    }
+
+    .menu__card-btn {
+        margin-top: 20px;
+        margin-left: 24px;
+        width: 241.67px;
+        height: 53.85px;
+        background-color: #FCB427;
+    }
+
+    .help_inputs {
+        margin-top: 93px;
+    }
+
+    .help__custom-checkbox {
+        opacity: 1;
+    }
+
+    .help__custom-checkbox+label {
+        opacity: 1;
+    }
+
+    .help__custom-checkbox+label::before {
+        opacity: 1;
+    }
+
+    .help__custom-checkbox:checked+label::before {
+        opacity: 1;
+    }
+
+    .help__checkbox-text-decor {
+        opacity: 1;
+    }
+
+    .help__checkbox-a-decor {
+        opacity: 1;
+    }
+
+    .help__checkbox {
+        opacity: 1;
+    }
+
+    .help__decor-up {
+        opacity: 1;
+    }
+
+    .help__inp-text_margin {
+        margin-left: 14px;
+    }
+
+    .help {
+        height: 651px;
+    }
+
+    .heading__main_none {
+        display: inline;
+        font-family: 'PT Sans', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 141.69%;
+        color: #000000;
+    }
+
+    .contacts {
+        margin-top: 120px;
+        width: 100%;
+        height: 675px;
+        background: #F3F3F3;
+    }
+
+    .catalog__btn-none {
+        display: none;
+    }
+
+    .catalog__btn-more {
+        display: inline;
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 36px;
+        color: #000000;
+    }
+
+    .catalog__btn-more-block {
+        cursor: pointer;
+        margin-top: 17px;
+        margin-left: 115px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 53px;
+        height: 25px;
+        border-bottom: 2px solid #FCD127;
+    }
+
+    .catalog__filter {
+        display: block;
+        background-image: url(../icons/menu/Фильтр.svg);
+        width: 61px;
+        height: 44px;
+        background-repeat: no-repeat;
+        position: static;
+        margin-left: -15px;
+    }
+
+    .catalog__filter-block {
+        display: block;
+        position: relative;
+        margin-top: 40px;
+    }
+}
