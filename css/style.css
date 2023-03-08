@@ -495,12 +495,14 @@ a.description_button:active {
     justify-content: space-evenly;
     align-items: center;
 }
-.experience_p{
+
+.experience_p {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
 }
+
 .experience_p_nombers {
     font-family: 'PT Sans';
     font-style: normal;
@@ -508,7 +510,7 @@ a.description_button:active {
     font-size: 70px;
     line-height: 75.5%;
     /* or 53px */
-    
+
     letter-spacing: 0.07em;
     color: #2D2D2D;
     -webkit-text-stroke: 1px #fff;
@@ -526,4 +528,91 @@ a.description_button:active {
 
 
     color: #FFFFFF;
+}
+
+.realise-projects {
+    background-image: url(../img/back.svg);
+    height: 1043px;
+    width: 100%;
+    background-position: bottom right;
+    background-position: 100% 100%;
+    background-size: no-repeat;
+
+}
+
+.projects-header {
+    color: #2D2D2D;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 141.69%;
+    margin-top: 50px;
+    margin-left: 223px;
+}
+
+.slids-done_projects {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 58px;
+}
+
+.slids-done-project {
+    width: 170px;
+    height: 137px;
+}
+
+.not-active {
+    filter: grayscale(100%);
+}
+
+.slider-done_lines {
+    background-color: #C4C4C4;
+    height: 4px;
+    width: 100%;
+}
+
+.slider-done_lines_active {
+    margin-top: 20px;
+    background-color: #535554;
+    width: 170px;
+    height: 4px;
+}
+
+.slider-done_buttons {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-right: 224px;
+    margin-top: 30px;
+
+}
+
+.slider-done_buttons_left {
+    margin-right: 7px;
+}
+
+.slider_right-header {
+    width: 544px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 142.19%;
+}
+
+.slider_right-geo {
+    display: flex;
+}
+
+.slider_right-geo_text {
+    margin-left: 12px;
+    color: #2D2D2D;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 142.19%;
+
+    width: 435.99px;
 }
