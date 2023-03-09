@@ -12,7 +12,7 @@
     outline-offset: 0;
 }
 
-@media (max-width:800px) {
+@media (max-width:780px) {
     .menu__back-text_position-one {
         display: none;
     }
@@ -46,7 +46,7 @@
     }
 
     .container {
-        max-width: 770px;
+        max-width: 740px;
     }
 
     .menu__filter-one {
