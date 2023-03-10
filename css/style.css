@@ -1,0 +1,17 @@
+
+@import url(./footer.css);
+@import url(../css/header.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1170px;
+}
+
+
