@@ -1,3 +1,10 @@
+
+@import url(./footer.css);
+@import url(../css/header.css);
+
+
+
+
 @import url(../css/button.css);
 @import url(../css/input.css);
 
@@ -253,7 +260,6 @@ body {
     padding-bottom: 40px;
 }
 
-.menu__text_flex-two {}
 
 .menu__flex-text {
     display: none;
@@ -267,13 +273,6 @@ body {
     background-color: #FFFFFF;
 }
 
-.active-two {}
-
-.active-three {}
-
-.active-four {}
-
-.active-five {}
 
 .menu__sort-default {
     width: 139px;
