@@ -177,7 +177,7 @@ footer {
 @media (max-width: 800px) {
     footer {
         margin-top: -10px;
-        height: 397px;
+        height: 100%;
     }
 
     .footer__photo {
@@ -229,9 +229,9 @@ footer {
     }
 }
 
-@media (max-width: 500px) {
+@media (max-width: 320px) {
     footer {
-        height: 793px;
+        height: 100%;
     }
 
     .footer__about-left {
