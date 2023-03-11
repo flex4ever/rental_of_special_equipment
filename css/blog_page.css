@@ -57,6 +57,16 @@
 } */
 .other-articles {
     margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+.other-articles__title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 33px;
+    line-height: 142.19%;
+    color: #2D2D2D;
 }
 
 .other-articles__buttons {
@@ -69,9 +79,11 @@
 .other-articles__buttons img:first-of-type {
     margin-right: 7px;
 }
-.slider-block{
+
+.slider-block {
     overflow: hidden;
 }
+
 .slider-block_margin {
     margin-top: 20px;
 }
@@ -88,10 +100,10 @@
     flex-direction: column;
     align-items: flex-start;
     width: 370px;
-    margin-right:30px ;
+    margin-right: 30px;
 }
 
-.slider-block__card-img{
+.slider-block__card-img {
     width: 370px;
 }
 
@@ -123,4 +135,101 @@
     color: #FFFFFF;
     border: none;
     margin-top: 20px;
+}
+
+.media-button-slider {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.media-button-slider__button {
+    border: 1px solid #FCB427;
+    width: 219px;
+    height: 50px;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 141.69%;
+    color: #2D2D2D;
+
+}
+
+@media screen and (max-width: 780px) {
+    .container {
+        max-width: 735px !important;
+    }
+
+    .other-articles__buttons {
+        display: none;
+    }
+
+    .slider-block_margin {
+        margin-top: 90px;
+    }
+
+    .slider-block__card {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 354px;
+        margin-right: 30px;
+    }
+
+    .block-page__photos {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .block-page__photos img:last-of-type {
+        margin-top: 30px;
+    }
+
+    .media-button-slider {
+        display: flex;
+        margin-bottom: 35px;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+    .container {
+        max-width: 290px !important;
+    }
+
+    .block-page__photos img {
+        width: 100%;
+    }
+
+    .slider-block__card-img {
+        width: 100%;
+    }
+
+    .slider-block__card:first-of-type {
+        display: block;
+
+    }
+
+    .slider-block__card:last-of-type {
+        display: block;
+        margin-top: 30px;
+    }
+
+    .slider-block__slider-line {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        transition: all 0.6s ease;
+        flex-direction: column;
+    }
+
+    .slider-block__card {
+        display: none;
+        width: 100%;
+    }
+
 }
