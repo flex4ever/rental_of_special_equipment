@@ -7,7 +7,7 @@
 
 .container {
     margin: 0 auto;
-    max-width: 1290px;
+    max-width: 1170px;
 }
 
 .rental {
@@ -20,12 +20,14 @@
     justify-content: space-between;
 
 
+
 }
 
 .block-header-background-img-1 {
     background-image: url(../img/bashennye-krany-montazh-remont-pusk-naladka-to-bO4btbqP.jpg);
     background-size: cover;
     background-position: center;
+    transition: all 0.3s ease;
 
 
 }
@@ -196,8 +198,9 @@ a.left-block_right-button {
 
 .under-rental_title {
     position: relative;
-    bottom: 131px;
-    left: 1255px;
+    bottom: 100%;
+    left: 62%;
+
 }
 
 .lease {
@@ -215,7 +218,7 @@ a.left-block_right-button {
     font-size: 40px;
     line-height: 141.69%;
     color: #2D2D2D;
-    margin-left: 240px;
+
     padding-top: 51px;
 }
 
@@ -229,11 +232,15 @@ a.left-block_right-button {
 }
 
 .special-equipment_slider {
-    width: 1680px;
+    width: 1170px;
     display: flex;
     justify-content: center;
     overflow: hidden;
     position: relative;
+}
+
+.special-equipment_slider_adaptive {
+    display: none;
 
 }
 
@@ -312,8 +319,14 @@ a.right-block_button:active {
     display: flex;
     position: relative;
     transition: all 0.3s ease;
+}
 
-
+.special-equipment_slider-line_adaptive {
+    display: none;
+    width: 768px;
+    display: flex;
+    position: relative;
+    transition: all 0.3s ease;
 }
 
 .special-equipment_slider_buttons {
@@ -327,13 +340,21 @@ a.right-block_button:active {
     display: flex;
     align-items: flex-end;
     flex-direction: column;
-    margin-right: 325px;
+    /* margin-right: 325px; */
     position: relative;
     bottom: 170px;
 }
 
 .special-equipment_slider_buttons_left {
     margin-right: 7px;
+}
+
+.special-equipment_slider_buttons_left_adaptive {
+    display: none;
+}
+
+.special-equipment_slider_buttons_right_adaptive {
+    display: none;
 }
 
 .special-equipment_line {
@@ -384,6 +405,10 @@ a.right-block_button:active {
     background-color: #F3F3F3;
     width: 100%;
     height: 1164px;
+}
+
+.description_header_adaptive {
+    display: none;
 }
 
 .description_header {
@@ -551,13 +576,56 @@ a.description_button:active {
     margin-top: 58px;
 }
 
-.slids-done-project {
+.slids-done-project1 {
     width: 170px;
     height: 137px;
+    filter: grayscale(100%);
 }
 
-.not-active {
+.slids-done-project2 {
+    width: 170px;
+    height: 137px;
     filter: grayscale(100%);
+}
+
+.slids-done-project3 {
+    width: 170px;
+    height: 137px;
+    filter: grayscale(100%);
+}
+
+.slids-done-project4 {
+    width: 170px;
+    height: 137px;
+    filter: grayscale(100%);
+}
+
+.slids-done-project5 {
+    width: 170px;
+    height: 137px;
+    filter: grayscale(100%);
+}
+
+.slids-done-project6 {
+    width: 170px;
+    height: 137px;
+    filter: grayscale(100%);
+}
+
+.slids-done-project7 {
+    width: 170px;
+    height: 137px;
+    filter: grayscale(100%);
+}
+
+.slids-done-project8 {
+    width: 170px;
+    height: 137px;
+    filter: grayscale(100%);
+}
+
+.slide_active {
+    filter: grayscale(0%);
 }
 
 .slider-done-line1 {
@@ -698,23 +766,296 @@ a.description_button:active {
     line-height: 141.69%;
     color: #2D2D2D;
 }
-.slider_right-next_line{
+
+.slider_right-next_line {
     margin-left: 21px;
 }
-.slider-done_line_slider{
+
+.slider-done_line_slider {
     width: 1350px;
     display: flex;
     justify-content: center;
     overflow: hidden;
     position: relative;
 }
-.slider-done_line_slider_line{
+
+.slider-done_line_slider_line {
     width: 1350px;
     display: flex;
     position: relative;
     transition: all 0.3s ease;
+
 }
-.slider-done_img-left{
+
+.slider-done_img-left {
     width: 788px;
     height: 582px;
+}
+
+.cards {
+    height: 1050px;
+    width: 100%;
+    background-color: #E2E2E2;
+}
+
+.cards__slider {
+    padding-top: 120px;
+    margin-left: 215px;
+    color: #2D2D2D;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 141.69%;
+}
+
+.navigation_lines {
+    display: flex;
+}
+
+.navigation_lines_line1 {
+    background: #C4C4C4;
+    height: 4px;
+    width: 31px;
+}
+
+.navigation_lines_line2 {
+    background: #C4C4C4;
+    height: 4px;
+    width: 31px;
+}
+
+.navigation_lines_line3 {
+    background: #C4C4C4;
+    height: 4px;
+    width: 31px;
+}
+
+.navigation_lines_line4 {
+    background: #C4C4C4;
+    height: 4px;
+    width: 31px;
+}
+.navigation_lines_line5 {
+    background: #C4C4C4;
+    height: 4px;
+    width: 31px;
+}
+
+.navigation_lines_line6 {
+    background: #C4C4C4;
+    height: 4px;
+    width: 31px;
+}
+
+.navigation_lines_line7 {
+    background: #C4C4C4;
+    height: 4px;
+    width: 31px;
+}
+._active_line {
+    background: #535554;
+    height: 4px;
+    width: 31px;
+
+}
+
+.navigation_buttons {
+    display: flex;
+    align-items: center;
+    margin-bottom: 13px;
+}
+
+.navigation_buttons_left {
+    margin-right: 7px;
+}
+
+.slider_navigation {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 229px;
+}
+
+.slider_card {
+    background-image: url(../img/card-background.png);
+    width: 370px;
+    height: 590px;
+    margin-right: 30px;
+    margin-top: 21px;
+}
+
+.card_img {
+    width: 370px;
+    height: 299px;
+}
+
+.card_header {
+    margin-top: 10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 142.19%;
+    color: #2D2D2D;
+    width: 292px;
+    margin-left: 30px;
+
+
+}
+
+.card-line {
+    margin-top: 10px;
+    width: 370px;
+    height: 1px;
+    background-color: #FCD12780;
+}
+
+.card_information_description {
+    display: flex;
+}
+
+.card_information_description_info {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 156.69%;
+    color: #2D2D2D;
+}
+
+.card_information_text {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 141.69%;
+    color: #2D2D2D;
+}
+
+.card_information_text-w-line {
+    display: flex;
+    align-items: center;
+
+}
+
+.card_information_line {
+    margin-left: 24px;
+}
+
+a.card_information_button {
+
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+
+    outline: none;
+    border-width: 2px 0;
+    border-style: solid none;
+    border-color: #FCB427;
+    background-color: #FCB427;
+    transition: 0.2s;
+    width: 311px;
+    height: 50px;
+    color: #FFFFFF;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 141.69%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+a.card_information_button:hover {
+    background: linear-gradient(#f5ae00, #f59500) #f5ae00;
+}
+
+a.card_information_button:active {
+    background: linear-gradient(#f59500, #f5ae00) #f59500;
+}
+
+.card_information {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+.card_information_description {
+    margin-top: 6px;
+}
+
+.card_information_text-w-line {
+    margin-top: 3px;
+    margin-bottom: 22px;
+}
+
+.slider_cards {
+    display: flex;
+    width: 1600px;
+    position: relative;
+    transition: all 0.3s ease;
+
+}
+
+.slider_cards_line {
+    overflow: hidden;
+    position: relative;
+}
+
+.card_btn_text {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 141.69%;
+    color: #2D2D2D;
+    border: 1px solid #FCB427;
+    padding-top: 12px;
+    padding-left: 27px;
+    padding-bottom: 12px;
+    padding-right: 27px;
+}
+
+.card_btn {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.slider-done_line_slider_adaptive {
+    display: none;
+    width: 1350px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+
+}
+.slider-done_line_slider_line_adaptive{
+    display: none;
+}
+.slider-done_buttons_left_adaptive{
+    display: none;
+}
+.slider-done_buttons_right_adaptive{
+    display: none;
+}
+.navigation_lines_adaptive{
+    display: none;
+}
+
+.slider_cards_line_adaptive{
+    display: none;
+}
+.navigation_buttons_left_adaptive{
+    display: none;
+}
+.navigation_buttons_right_adaptive{
+    display: none;
 }
