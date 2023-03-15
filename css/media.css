@@ -1,0 +1,747 @@
+@media (width: 778px) {
+    .left-block_wraper-m {
+        margin-left: 15px;
+    }
+
+    .left-block_header-text {
+        padding-top: 20px;
+        width: 444px;
+        height: 186px;
+        font-family: 'PT Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 44px;
+        line-height: 141.69%;
+        color: #2D2D2D;
+    }
+
+    .left-block_description-text {
+        width: 435px;
+        height: 75px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 156.69%;
+        color: #2D2D2D;
+        padding-top: 30px;
+    }
+
+    .left-block {
+        padding-top: 103px;
+        width: 492px;
+        background: rgba(255, 255, 255, 0.8);
+    }
+
+    .left-block_all-buttons {
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-around;
+        width: 466px;
+    }
+
+    .right-block_score {
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 12px;
+        margin-top: 23px;
+    }
+
+    .under-rental_title {
+        display: none;
+    }
+
+    .under-rental_buttons-slider {
+        margin-left: 183px;
+    }
+
+    .under-rental {
+        height: 41px;
+    }
+
+    .lease {
+        background-image: url(../img/Group\ 471.png);
+        width: 100%;
+        height: 1116px;
+        background-size: cover;
+    }
+
+    .special-equipment_slider_buttons-lines {
+        display: flex;
+        align-items: flex-end;
+        flex-direction: column;
+        margin-right: 0px;
+        /* position: relative; */
+        /* bottom: 0px; */
+        top: 46px;
+    }
+
+    .special-equipment_slide {
+        margin-top: 120px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .special-equipment_slider_right-block {
+        margin-left: 80px;
+    }
+
+    .special-equipment_slider-line {
+        display: none;
+    }
+
+    .special-equipment_slider-line_adaptive {
+        display: block;
+        width: 600px;
+        display: flex;
+        position: relative;
+        transition: all 0.3s ease;
+    }
+
+    .special-equipment_slider {
+        width: 320px;
+        display: none;
+
+    }
+
+    .special-equipment_slider_adaptive {
+        display: block;
+        display: flex;
+        width: 720px;
+        justify-content: center;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .special-equipment_header-text {
+        display: none;
+    }
+
+    .slider-img {
+        width: 648px;
+        height: 458px;
+    }
+
+    .special-equipment_slider_buttons_left {
+        display: none;
+    }
+
+    .special-equipment_slider_buttons_right {
+        display: none;
+    }
+
+    .special-equipment_slider_buttons_left_adaptive {
+        display: block;
+        margin-right: 7px;
+    }
+
+    .special-equipment_slider_buttons_right_adaptive {
+        display: block;
+    }
+
+    .under-lease {
+        height: 1812px;
+    }
+
+    .description_header {
+        display: none;
+    }
+
+    .description-laise {
+        padding-top: 0px;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column-reverse;
+    }
+
+    .description_header_adaptive {
+        display: block;
+        padding-top: 88px;
+        padding-left: 16px;
+        padding-bottom: 20px;
+        font-family: 'PT Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 141.69%;
+        color: #424242;
+    }
+
+    .description-icons {
+        padding-top: 67px;
+
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    a.description_button {
+        margin-left: 283px;
+    }
+
+    .description-icons-text {
+        width: 252px;
+        text-align: center;
+        margin-bottom: 0px;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+        padding: 0 0px;
+    }
+
+    .description_description {
+        margin-top: 20px;
+        margin-left: 14px;
+        width: 737px;
+    }
+
+    .description {
+        margin-top: 70px;
+    }
+
+    .experience {
+        height: 721px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+        background-size: cover;
+    }
+
+
+    .projects-header {
+        margin-left: 20px;
+    }
+
+    .slids-done-project1 {
+        width: 96px;
+        height: 137px;
+        filter: grayscale(100%);
+    }
+
+    .slids-done-project2 {
+        width: 96px;
+        height: 137px;
+        filter: grayscale(100%);
+    }
+
+    .slids-done-project3 {
+        width: 96px;
+        height: 137px;
+        filter: grayscale(100%);
+    }
+
+    .slids-done-project4 {
+        width: 96px;
+        height: 137px;
+        filter: grayscale(100%);
+    }
+
+    .slids-done-project5 {
+        width: 96px;
+        height: 137px;
+        filter: grayscale(100%);
+    }
+
+    .slids-done-project6 {
+        width: 96px;
+        height: 137px;
+        filter: grayscale(100%);
+    }
+
+    .slids-done-project7 {
+        width: 96px;
+        height: 137px;
+        filter: grayscale(100%);
+    }
+
+    .slids-done-project8 {
+        width: 96px;
+        height: 137px;
+        filter: grayscale(100%);
+    }
+
+    .slide_active {
+        filter: grayscale(0%);
+    }
+
+    .slider-done_buttons {
+        margin-right: 10px;
+    }
+
+    .slider-done {}
+
+    .realise-projects {
+        height: 1350px;
+    }
+
+
+    .slider-done_line_slider {
+        display: none;
+    }
+
+    .slider-done_line_slider_adaptive {
+        margin-top: 10px;
+        display: block;
+        width: 778px;
+        display: flex;
+        justify-content: center;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .slider-done_line_slider_line_adaptive {
+        width: 768px;
+        display: flex;
+        position: relative;
+        transition: all 0.3s ease;
+    }
+
+    .slider-done_buttons_left {
+        display: none;
+    }
+
+    .slider-done_buttons_right {
+        display: none;
+    }
+
+    .slider-done_buttons_left_adaptive {
+        display: block;
+        margin-right: 7px;
+    }
+
+    .slider-done_buttons_right_adaptive {
+        display: block;
+    }
+
+    .slider-done_slider {
+        width: 778px;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        margin-left: 20px;
+    }
+
+    .slider-done_img-left {
+        width: 740px;
+        height: 545.07px;
+    }
+
+    .slider_right-geo_description {
+        width: 450px;
+    }
+
+    .slider-done_line_slider_line_adaptive {}
+
+    .cards__slider {
+        padding-top: 72px;
+        margin-left: 17px;
+    }
+
+    .slider_navigation {
+        margin-right: 15px;
+    }
+
+    .navigation_lines_adaptive {
+        display: block;
+        display: flex;
+    }
+
+    .navigation_lines {
+        display: none;
+    }
+
+    .slider_cards_line_adaptive {
+        display: block;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .slider_cards_line {
+        display: none;
+    }
+
+    .slider_cards_adaptive {
+        display: flex;
+        flex-wrap: wrap;
+        width: 1600px;
+        position: relative;
+        transition: all 0.3s ease;
+
+    }
+
+    .navigation_buttons_left {
+        display: none;
+    }
+
+    .navigation_buttons_right {
+        display: none;
+    }
+
+    .navigation_buttons_left_adaptive {
+        display: block;
+        margin-right: 7px;
+    }
+
+    .navigation_buttons_right_adaptive {
+        display: block;
+    }
+
+    .cards {
+        height: 1603px;
+    }
+
+}
+
+@media (width: 320px) {
+    .right-block_score-text {
+        display: none;
+    }
+
+    .right-block {
+        display: none;
+    }
+
+    .left-block {
+        padding-top: 41px;
+        width: 100%;
+    }
+
+    .left-block_wraper-m {
+        margin-left: 15px;
+    }
+
+    .left-block_yellow-line {
+        width: 160px;
+    }
+
+    .left-block_header-text {
+        width: 291px;
+        height: 248px;
+    }
+
+    .left-block_description-text {
+        width: 284px;
+        height: 105px;
+    }
+
+    .rental {
+        height: 657px;
+    }
+
+    .under-rental_title {
+        display: none;
+    }
+
+    .under-rental_buttons-slider {
+        display: none;
+    }
+
+    .left-block_all-buttons {
+        width: 219px;
+        margin-top: 30px;
+        height: 130px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+
+    .under-rental {
+        height: 41px;
+    }
+
+    .special-equipment_slider {
+        width: 778px;
+        display: none;
+
+    }
+
+    .special-equipment_slider_adaptive {
+        margin-top: 47px;
+        display: block;
+        display: flex;
+        width: 320px;
+        justify-content: center;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .slider-img {
+        width: 291.9px;
+        height: 206.31px;
+    }
+
+    .special-equipment_slider-line_adaptive {
+        width: 320px;
+    }
+
+    .special-equipment_slider_buttons-lines {}
+
+    .special-equipment_slide {
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+
+    .lease {
+        height: 973px;
+    }
+
+    .special-equipment_slider_buttons {
+        display: none;
+    }
+
+    .special-equipment_slider_buttons-lines {
+        bottom: -41px;
+    }
+
+    .special-equipment_header-text {
+        margin-left: 15px;
+    }
+
+    .right-block_description-text {
+        width: 289px;
+        height: 184px;
+    }
+
+    .right-block_header-text {
+        font-family: 'Montserrat';
+        font-style: normal;
+        width: 289px;
+        height: 94px;
+        margin-top: 47px;
+    }
+
+    .description_header {
+        display: none;
+    }
+
+    .description_header_adaptive {
+        display: block;
+        font-family: 'PT Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 141.69%;
+        padding-top: 120px;
+        padding-left: 15px;
+    }
+
+    .description-laise {
+        padding-top: 0px;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column-reverse;
+    }
+
+    .description-icons {
+        display: flex;
+        padding-top: 120px;
+        flex-direction: column;
+        margin-left: 15px;
+    }
+
+    .description-icons-text_icon {
+        width: 75px;
+        height: 84px;
+    }
+
+    .escription-icons-text_text {
+        width: 276px;
+        height: 26px;
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 142.19%;
+        text-align: center;
+    }
+
+    .description-icons-text {
+        width: 100%;
+        margin-bottom: 0px;
+    }
+
+    .description_description {
+        width: 289px;
+        margin-left: 15px;
+        margin-top: 30px;
+    }
+
+    a.description_button {
+        margin-top: 30px;
+        margin-left: 50px;
+    }
+
+    .experience {
+        height: 721px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+        background-size: cover;
+    }
+
+    .under-lease {
+        height: 2436px;
+    }
+
+    .realise-projects {
+        height: 1200px;
+    }
+
+    .projects-header {
+        margin-top: 52px;
+        margin-left: 20px;
+    }
+
+    .slider-done_line_slider {
+        display: none;
+    }
+
+    .slider-done_line_slider_adaptive {
+        margin-top: 50px;
+        display: block;
+        width: 320px;
+        display: flex;
+        justify-content: center;
+        overflow: hidden;
+        position: relative;
+    }
+
+    .slider-done_line_slider_line_adaptive {
+        width: 310px;
+        display: flex;
+        position: relative;
+        transition: all 0.3s ease;
+    }
+
+    .slider-done_img-left {
+        width: 290px;
+        height: 214.19px;
+    }
+
+    .slider-done_slider {
+        flex-direction: column;
+        margin-top: 30px;
+        margin-left: 15px;
+    }
+
+    .slids-done-project1 {
+        width: 40px;
+        height: 137px;
+        filter: grayscale(100%);
+    }
+
+    .slids-done-project2 {
+        width: 40px;
+        height: 137px;
+        filter: grayscale(100%);
+    }
+
+    .slids-done-project3 {
+        width: 40px;
+        height: 137px;
+        filter: grayscale(100%);
+    }
+
+    .slids-done-project4 {
+        width: 40px;
+        height: 137px;
+        filter: grayscale(100%);
+    }
+
+    .slids-done-project5 {
+        width: 40px;
+        height: 137px;
+        filter: grayscale(100%);
+    }
+
+    .slids-done-project6 {
+        width: 40px;
+        height: 137px;
+        filter: grayscale(100%);
+    }
+
+    .slids-done-project7 {
+        width: 40px;
+        height: 137px;
+        filter: grayscale(100%);
+    }
+
+    .slids-done-project8 {
+        width: 40px;
+        height: 137px;
+        filter: grayscale(100%);
+    }
+
+    .slide_active {
+        filter: grayscale(0%);
+    }
+
+    .slider-done_slider_right {
+        margin-left: 0px;
+    }
+
+    .slider_right-header {
+        width: 292px;
+    }
+
+    .slider_right-geo_text {
+        width: 261px;
+    }
+
+    .slider_right-geo_description {
+        width: 292px;
+    }
+
+    .slider-done_buttons {
+        display: none;
+    }
+
+    .cards {
+        height: 2943px;
+    }
+
+    .slider_navigation {
+        display: none;
+    }
+
+    .cards__slider {
+        padding-top: 119px;
+        margin-left: 15px;
+    }
+
+    .card_img {
+        width: 290px;
+        height: 299px;
+    }
+
+    .slider_card {
+        width: 290px;
+        height: 590px;
+    }
+
+    a.card_information_button {
+        width: 263px;
+        height: 47.76px;
+    }
+
+    .card_information {
+        margin-left: 13px;
+    }
+
+    .slider_cards {
+        margin-left: 10px;
+        margin-top: 117px;
+        
+        display: flex;
+        width: 1600px;
+        position: relative;
+        transition: all 0.3s ease;
+        flex-direction: column;
+    }
+    .slider_cards_line{
+        height: 2574px;
+    }
+
+}
