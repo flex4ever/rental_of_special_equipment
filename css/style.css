@@ -1,13 +1,17 @@
+<<<<<<< HEAD
 
 @import url(./footer.css);
 @import url(../css/header.css);
 
+=======
+>>>>>>> de1b673bded2e35585313d142bfc03a5007bc892
 * {
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
     text-decoration: none;
     list-style: none;
+
 }
 
 .container {
@@ -19,7 +23,7 @@
 .rental {
     background-image: url(../icons/slide-img.svg);
     width: 100%;
-    height: 600px;
+    height: 170px;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -405,6 +409,7 @@ a.right-block_button:active {
 
 }
 
+.description-laise {}
 
 .under-lease {
     background-color: #F3F3F3;
@@ -738,12 +743,15 @@ a.description_button:active {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
+}
+.block-text-flex {
+    width: 270px;
     line-height: 156.69%;
     color: #2D2D2D;
     width: 561px;
-
-
 }
+
+
 
 .slider-done_slider {
     width: 1900px;
@@ -789,6 +797,13 @@ a.description_button:active {
     display: flex;
     position: relative;
     transition: all 0.3s ease;
+}
+.yellow-block {
+    margin-top: 50px;
+    background-repeat: no-repeat;
+    background-image: url(../img/car-block.png);
+    width: auto;
+    height: 328px;
 
 }
 
@@ -1063,4 +1078,752 @@ a.card_information_button:active {
 }
 .navigation_buttons_right_adaptive{
     display: none;
+}
+
+
+.block__text {
+
+    display: flex;
+}
+
+.block__white {
+    padding-top: 30px;
+    display: flex;
+}
+
+.white__block {
+    padding-left: 30px;
+    width: 300px;
+    height: 50px;
+}
+
+.white__block-two {
+    margin-left: 30px;
+    padding-left: 30px;
+    width: 300px;
+    height: 50px;
+}
+
+.orange__block {
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 50px;
+
+    background: #FCB427;
+}
+
+.orange__text {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 141.69%;
+    color: #FFFFFF;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+}
+
+.block__pod_white {
+    display: flex;
+    padding-top: 30px;
+}
+
+
+.about__block {
+    margin-top: 152px;
+    height: 502px;
+    width: auto;
+    background-image: url(../img/about.png);
+}
+
+.text__block {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 141.69%;
+    color: #2D2D2D;
+}
+
+.block__text-two {
+    margin-left: 213px;
+    display: flex;
+    height: 325px;
+    margin-top: 36px;
+}
+
+.about__text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 156.69%;
+
+    color: #2D2D2D;
+}
+
+.about__text-two {
+    margin-top: 25px;
+}
+
+.about__text-three {
+    margin-top: 25px;
+}
+
+.block__video {
+    margin-top: -96px;
+    margin-left: 43px;
+    display: flex;
+}
+
+.width__text {
+    width: 565px;
+    height: 325px;
+}
+
+.video {
+    display: flex;
+    width: 700px;
+    height: 481px;
+}
+
+.white__text {
+    width: 383px;
+    height: 26px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 11px;
+    line-height: 120%;
+}
+
+.block__text-three {
+    margin-left: 213px;
+    display: flex;
+}
+
+.play {
+    position: relative;
+    width: 77px;
+    height: 77px;
+    left: 369px;
+    top: 223px;
+
+}
+
+.blocl__services {
+
+    height: 1113px;
+    width: 100%;
+    background-image: url(../img/услуги.png);
+}
+
+.services__text {
+    margin-left: 35px;
+    margin-top: 54px;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 141.69%;
+    color: #2D2D2D;
+}
+
+.block__text-services {
+    display: flex;
+}
+
+.block__car {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    margin-top: 55px;
+}
+
+.block__car-two {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    margin-top: 61px;
+}
+
+
+
+.photo__rent {
+    width: 370px;
+    height: 325px;
+
+}
+
+.block__orange {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background: #FCB427;
+    width: 369px;
+    height: 65px;
+}
+
+.orange__text-two {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 142.19%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+
+.rent__text {
+    align-items: center;
+    display: flex;
+}
+
+.text__rent {
+    margin-top: 131px;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 141.69%;
+    color: #2D2D2D;
+
+}
+
+.text__rent-two {
+    margin-left: 3px;
+    margin-top: 35px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 156.69%;
+    color: #2D2D2D;
+}
+
+.text__rent-three {
+
+    margin-top: 50px;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 141.69%;
+    color: #2D2D2D;
+}
+
+.text__rent-four {
+    margin-top: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 156.69%;
+    color: #2D2D2D;
+}
+
+.mini__block-orange {
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-right: 10px;
+    margin-top: 20px;
+    width: 10px;
+    height: 10px;
+    background: #FCB427;
+    border-radius: 1px;
+
+}
+
+.text__rent-one {
+    margin-top: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 156.69%;
+
+    color: #2D2D2D;
+}
+
+/* 
+блок с остались вопросы
+ */
+.Questions__left {
+    margin-top: 121px;
+    background-color: #2D2D2D;
+    width: 100%;
+    height: 789px;
+    background-image: url(../img/Group\ 694.png);
+}
+
+.questions__text {
+    flex-direction: column;
+    display: flex;
+}
+
+.text__questions {
+    margin-top: 50px;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 33px;
+    line-height: 142.19%;
+    color: #FFFFFF;
+}
+
+.text__questions-two {
+    margin-top: 30px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 156.69%;
+
+
+
+    color: #FFFFFF;
+}
+
+.block__data {
+    margin-top: 30px;
+    margin-left: 30px;
+    flex-direction: column;
+    display: flex;
+}
+
+.black__block {
+    background-color: #2D2D2D;
+    padding-left: 30px;
+    width: 490px;
+    height: 50px;
+    border: 1px solid #C4C4C4;
+}
+
+.black__block-two {
+    
+    background-color: #2D2D2D;
+    padding-left: 30px;
+    width: 490px;
+    height: 100px;
+    border: 1px solid #C4C4C4;
+}
+
+.black__text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 156.69%;
+    color: #FFFFFF;
+}
+
+.orange__block-two {
+    margin-top: 30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 490px;
+    height: 50px;
+
+    background: #FCB427;
+}
+
+.block__pod_data {
+
+    display: flex;
+    padding-top: 30px;
+}
+
+.custom-checkbox {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+
+.custom-checkbox-two {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+}
+
+.custom-checkbox+label {
+    display: inline-flex;
+    align-items: center;
+    user-select: none;
+}
+
+.custom-checkbox-two+label {
+    display: inline-flex;
+    align-items: center;
+    user-select: none;
+}
+
+.custom-checkbox+label::before {
+    content: '';
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    flex-shrink: 0;
+    flex-grow: 0;
+    border: 1px solid #adb5bd;
+    border-radius: 0.25em;
+    margin-right: 0.5em;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50% 50%;
+}
+
+.custom-checkbox-two+label::before {
+    content: '';
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    flex-shrink: 0;
+    flex-grow: 0;
+    border: 1px solid #adb5bd;
+    border-radius: 0.25em;
+    margin-right: 0.5em;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 50% 50%;
+}
+
+.custom-checkbox:checked+label::before {
+    border-color: #535554;
+    background-color: #ffffff;
+    background-image: url(../img/strelka.png);
+
+}
+
+.custom-checkbox-two:checked+label::before {
+    border-color: #ffffff;
+    background-color: #2D2D2D;
+
+    background-image: url(../img/strelka.png);
+
+}
+
+.block__video-two {
+    display: none;
+}
+
+.car__rent-two {
+    display: none;
+}
+
+@media (max-width: 780px) {
+    .black-block__gray-stripe {
+        width: 780px;
+        background: #2d2d2d;
+
+        height: 886px;
+
+        background-image: url(../img/расчетадаптив.png);
+    }
+
+    .black-text-one {
+        margin-left: 15px;
+        margin-top: 90px;
+        display: flex;
+    }
+
+    .text-one-black-block {
+        font-family: 'PT Sans';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 141.69%;
+    }
+
+    .block-photo-text {
+        margin-top: 60px;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        display: flex;
+    }
+
+    .yellow-block {
+        margin-left: -193px;
+        margin-top: 100px;
+        height: 451px;
+        background-image: url(../img/cta\ adaptive.png);
+    }
+
+    .block__text {
+        margin-left: 214px;
+        display: flex;
+    }
+
+    .block__white {
+        margin-left: 396px;
+        width: 300px;
+        padding-top: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .white__block-two {
+        width: 268px;
+        margin-left: 0px;
+    }
+
+    .white__block {
+        width: 268px;
+        margin-left: 0px;
+    }
+
+    .orange__block {
+        margin-left: 0px;
+        width: 300px;
+    }
+
+    .block__pod_white {
+        margin-left: 396px;
+    }
+
+    .white__text {
+        width: 300px;
+    }
+
+    .about__block {
+        height: 866px;
+        margin-top: 53px;
+        margin-left: -200px;
+    }
+
+    .block__video {
+        display: none;
+    }
+
+    .block__video-two {
+        margin-left: 222px;
+        display: block;
+    }
+
+    .video {
+        width: 737px;
+        height: 452px;
+    }
+
+    .block__text-three {
+        margin-left: 222px;
+        display: flex;
+    }
+
+    .block__text-two {
+        margin-left: 222px;
+
+    }
+
+    .width__text {
+        width: 736px;
+        height: 250px;
+    }
+
+    .blocl__services {
+        height: 1450px;
+        background: white;
+    }
+
+    .services__text {
+        margin-left: 23px;
+    }
+
+    .block__car {
+        margin-right: 10px;
+        margin-left: 10px;
+        flex-wrap: wrap
+    }
+
+    .car__rent-two {
+        margin-top: 10px;
+        display: block;
+    }
+
+    .car__rent-three {
+        display: none;
+    }
+
+    .block__orange {
+        width: 353px;
+    }
+
+    .photo__twenty-eight {
+        width: 354px;
+    }
+
+    .photo__rent {
+        width: 354px;
+    }
+
+    .photo__rent-two {
+        width: 353px;
+    }
+
+    .rent__text {
+        margin-left: 10px;
+    }
+
+    .text__rent-two {
+
+        margin-left: 10px;
+
+    }
+
+    .Questions__left {
+        background-image: url(../img/форма\ адаптив2.png);
+    }
+
+    .questions__text {
+        margin-left: 10px;
+    }
+
+    .block__data {
+        width: 490px;
+        height: 484px;
+    }
+
+    .custom-checkbox-two+label {
+        display: inline-flex;
+        align-items: flex-start;
+        user-select: none;
+    }
+
+    .play {
+        position: relative;
+        width: 77px;
+        height: 77px;
+        left: 350px;
+        top: 279px;
+    }
+}
+
+@media (max-width:320px) {
+    .black-block__gray-stripe {
+
+        background: #2d2d2d;
+
+        width: 320px;
+        height: 1419px;
+
+        background-image: url(../img/расчет\ адаптив\ под\ телефон.png);
+    }
+
+    .flex-wrap-block-two {
+        margin-left: 0px;
+    }
+
+    .flex-wrap-block-one {
+        margin-top: 0px;
+    }
+
+    .block__white {
+        margin-left: 204px;
+        width: 290px;
+        padding-top: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .block__pod_white {
+        margin-left: 207px;
+    }
+
+    .yellow-block {
+        background-image: url(../img/cta\ адаптив\ под\ телефон.png);
+        height: 531px;
+    }
+
+    .text-black {
+        padding-top: 36px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 33px;
+        line-height: 142.19%;
+
+    }
+
+    .video {
+        width: 289.22px;
+        height: 177.37px;
+    }
+
+    .play {
+        position: relative;
+        width: 30px;
+        height: 30px;
+        left: 131px;
+        top: 114px;
+    }
+
+    .blocl__services {
+        height: 2397px;
+        ;
+    }
+
+    .photo__twenty-eight {
+        width: 289.18px;
+    }
+
+    .photo__rent {
+        width: 289.18px;
+    }
+
+    .photo__rent-two {
+        width: 289.18px;
+    }
+
+    .block__orange {
+        width: 289.18px;
+    }
+
+    .block__car {
+        margin-left: 15px;
+    }
+
+    .car__rent-two {
+        margin-top: 30px;
+
+    }
+
+    .text__rent-two {
+        margin-right: 5px;
+        margin-left: 10px;
+    }
+
+    .Questions__left {
+        background-image: url(../img/форма\ ос\ телефон\ адаптив.png);
+        height: 893px;
+    }
+
+    .block__data {
+        width: 290px;
+        height: 506px;
+        margin-left: 17px;
+    }
+
+    .black__block {
+        width: 260px;
+        height: 50px;
+    }
+    .black__block-two {
+        background-color: #2D2D2D;
+        padding-left: 30px;
+        width: 260px;
+        height: 100px;
+        border: 1px solid #C4C4C4;
+    }
+    .orange__block-two {
+        width: 290px;
+        height: 50px;
+        
+    }
 }
