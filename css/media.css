@@ -1,8 +1,16 @@
-@media (width: 778px) {
+@media (max-width: 778px) {
     .left-block_wraper-m {
         margin-left: 15px;
     }
-
+    .container {
+        max-width: 738px;
+    }
+    .yellow-block_flex{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
     .left-block_header-text {
         padding-top: 20px;
         width: 444px;
@@ -70,7 +78,7 @@
         display: flex;
         align-items: flex-end;
         flex-direction: column;
-        margin-right: 0px;
+        margin-right: 65px;
         /* position: relative; */
         /* bottom: 0px; */
         top: 46px;
@@ -84,7 +92,7 @@
     }
 
     .special-equipment_slider_right-block {
-        margin-left: 80px;
+        
     }
 
     .special-equipment_slider-line {
@@ -699,7 +707,7 @@
     }
 
     .cards {
-        height: 2943px;
+        height: 1600px;
     }
 
     .slider_navigation {

@@ -1,10 +1,6 @@
-<<<<<<< HEAD
-
 @import url(./footer.css);
 @import url(../css/header.css);
 
-=======
->>>>>>> de1b673bded2e35585313d142bfc03a5007bc892
 * {
     margin: 0;
     padding: 0;
@@ -23,7 +19,7 @@
 .rental {
     background-image: url(../icons/slide-img.svg);
     width: 100%;
-    height: 170px;
+    height: 600px;
     background-size: cover;
     background-position: center;
     display: flex;
@@ -318,6 +314,7 @@ a.right-block_button:active {
 .special-equipment_slide {
     display: flex;
     justify-content: space-around;
+    transition: all 0.3s ease;
 }
 
 .special-equipment_slider_right-block {
@@ -328,7 +325,8 @@ a.right-block_button:active {
     width: 1680px;
     display: flex;
     position: relative;
-    transition: all 0.3s ease;
+    right: 0px;
+    transition: right 0.4s ease;
 }
 
 .special-equipment_slider-line_adaptive {
@@ -409,7 +407,7 @@ a.right-block_button:active {
 
 }
 
-.description-laise {}
+
 
 .under-lease {
     background-color: #F3F3F3;
@@ -744,6 +742,7 @@ a.description_button:active {
     font-weight: 400;
     font-size: 16px;
 }
+
 .block-text-flex {
     width: 270px;
     line-height: 156.69%;
@@ -797,10 +796,78 @@ a.description_button:active {
     display: flex;
     position: relative;
     transition: all 0.3s ease;
+    right: 0px;
 }
+
+.block-photo-text {
+    display: flex;
+}
+
+.black-block__gray-stripe {
+    display: flex;
+    background: #232323;
+    background-repeat: no-repeat;
+    background-image: url(../img/black-block.png);
+    width: auto;
+    height: 493px;
+
+}
+
+.text-one-black-block {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 141.69%;
+
+    color: #FFFFFF;
+}
+
+.black-text-one {
+    margin-top: 56px;
+    display: flex;
+}
+
+.flex-wrap-block-one {
+    margin-top: 30px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-wrap-block-two {
+    margin-top: 30px;
+    margin-left: 30px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.photo-flex-wrap {
+    width: 135px;
+    height: 95px;
+}
+
+.text-one-flex-wrap {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 156.69%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.block-text-flex {
+    width: 270px;
+    line-height: 156.69%;
+
+    display: flex;
+    margin-top: 25px;
+}
+
 .yellow-block {
     margin-top: 50px;
-    background-repeat: no-repeat;
     background-image: url(../img/car-block.png);
     width: auto;
     height: 328px;
@@ -856,6 +923,7 @@ a.description_button:active {
     height: 4px;
     width: 31px;
 }
+
 .navigation_lines_line5 {
     background: #C4C4C4;
     height: 4px;
@@ -873,6 +941,7 @@ a.description_button:active {
     height: 4px;
     width: 31px;
 }
+
 ._active_line {
     background: #535554;
     height: 4px;
@@ -1018,7 +1087,7 @@ a.card_information_button:active {
     width: 1600px;
     position: relative;
     transition: all 0.3s ease;
-
+    right: 0px;
 }
 
 .slider_cards_line {
@@ -1055,28 +1124,35 @@ a.card_information_button:active {
     justify-content: center;
     overflow: hidden;
     position: relative;
+    right: 0px;
 
 }
-.slider-done_line_slider_line_adaptive{
-    display: none;
-}
-.slider-done_buttons_left_adaptive{
-    display: none;
-}
-.slider-done_buttons_right_adaptive{
-    display: none;
-}
-.navigation_lines_adaptive{
+
+.slider-done_line_slider_line_adaptive {
     display: none;
 }
 
-.slider_cards_line_adaptive{
+.slider-done_buttons_left_adaptive {
     display: none;
 }
-.navigation_buttons_left_adaptive{
+
+.slider-done_buttons_right_adaptive {
     display: none;
 }
-.navigation_buttons_right_adaptive{
+
+.navigation_lines_adaptive {
+    display: none;
+}
+
+.slider_cards_line_adaptive {
+    display: none;
+}
+
+.navigation_buttons_left_adaptive {
+    display: none;
+}
+
+.navigation_buttons_right_adaptive {
     display: none;
 }
 
@@ -1398,19 +1474,29 @@ a.card_information_button:active {
 
 .black__block {
     background-color: #2D2D2D;
-    padding-left: 30px;
+    padding-left: 12px;
     width: 490px;
     height: 50px;
     border: 1px solid #C4C4C4;
 }
 
 .black__block-two {
-    
+
     background-color: #2D2D2D;
     padding-left: 30px;
     width: 490px;
     height: 100px;
     border: 1px solid #C4C4C4;
+}
+
+.text-black {
+    padding-top: 36px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 33px;
+    line-height: 142.19%;
+
 }
 
 .black__text {
@@ -1550,10 +1636,10 @@ a.card_information_button:active {
     }
 
     .yellow-block {
-        margin-left: -193px;
         margin-top: 100px;
         height: 451px;
-        background-image: url(../img/cta\ adaptive.png);
+        background-image: url(../img/cta-adaptive.png);
+        background-position-x: -200px;
     }
 
     .block__text {
@@ -1562,7 +1648,7 @@ a.card_information_button:active {
     }
 
     .block__white {
-        margin-left: 396px;
+
         width: 300px;
         padding-top: 30px;
         display: flex;
@@ -1584,9 +1670,7 @@ a.card_information_button:active {
         width: 300px;
     }
 
-    .block__pod_white {
-        margin-left: 396px;
-    }
+    .block__pod_white {}
 
     .white__text {
         width: 300px;
@@ -1715,7 +1799,9 @@ a.card_information_button:active {
 
         background-image: url(../img/расчет\ адаптив\ под\ телефон.png);
     }
-
+    .container {
+        max-width: 294px!important;
+    }
     .flex-wrap-block-two {
         margin-left: 0px;
     }
@@ -1725,17 +1811,12 @@ a.card_information_button:active {
     }
 
     .block__white {
-        margin-left: 204px;
+       
         width: 290px;
         padding-top: 30px;
         display: flex;
         flex-direction: column;
     }
-
-    .block__pod_white {
-        margin-left: 207px;
-    }
-
     .yellow-block {
         background-image: url(../img/cta\ адаптив\ под\ телефон.png);
         height: 531px;
@@ -1814,16 +1895,18 @@ a.card_information_button:active {
         width: 260px;
         height: 50px;
     }
+
     .black__block-two {
         background-color: #2D2D2D;
-        padding-left: 30px;
+        padding-left: 12px;
         width: 260px;
         height: 100px;
         border: 1px solid #C4C4C4;
     }
+
     .orange__block-two {
         width: 290px;
         height: 50px;
-        
+
     }
 }

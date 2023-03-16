@@ -1,4 +1,5 @@
-const BlockImg2 = document.querySelector('.block-header-background-img-1');
+window.addEventListener('DOMContentLoaded', ()=>{
+   const BlockImg2 = document.querySelector('.block-header-background-img-1');
 const BlockImg3 = document.querySelector('.block-header-background-img-2');
 const BlockImg1 = document.querySelector('.rental');
 const btn1 = document.getElementById('left_first-slider');
@@ -60,5 +61,7 @@ console.log(BlockImg1)
 console.log(BlockImg2)
 console.log(BlockImg3)
 console.log(btn1)
-console.log(btn2)
+console.log(btn2) 
+})
+
 
