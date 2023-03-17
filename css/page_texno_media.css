@@ -1,0 +1,419 @@
+@media (max-width:800px) and (min-width:321px) {
+    .cats__main {
+        background: none;
+    }
+
+    .slider__main {
+        content: url(../img/cran-adapt.png);
+    }
+
+    .slider__list {
+        width: 354px;
+        height: 344.23px;
+        overflow: hidden;
+    }
+
+    .slider__img {
+        content: url(../img/cran-adapt-mini.png);
+    }
+
+    .slider__img_left {
+        margin-left: 0;
+    }
+
+    .slider__imgs {
+        width: 354px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .container {
+        max-width: 734px;
+    }
+
+    .tabs__item-img-decor-one {
+        content: url(../img/1\ adapt.png);
+    }
+
+    .tabs__item-img-decor-two {
+        content: url(../img/2\ adapt.png);
+    }
+
+    .tabs__item-img-decor-three {
+        content: url(../img/3\ adapt.png);
+    }
+
+    .tabs__item-img {
+        flex-wrap: wrap;
+    }
+
+    .tabs__item-img-decor-three_margin {
+        margin-top: 27px;
+    }
+
+    .tabs__card_none {
+        display: none;
+    }
+
+    .tabs__flex {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .contacts__input-name {
+        width: 370px;
+        height: 50px;
+    }
+
+    .contacts__input-number {
+        width: 370px;
+        height: 50px;
+    }
+
+    .contacts__btn {
+        width: 370px;
+        height: 50px;
+    }
+
+    .contacts__block {
+
+        height: 567px;
+    }
+
+    .container__flex-one {
+        flex-direction: column;
+
+    }
+
+    .contacts {
+        margin-top: 120px;
+        background-image: url(../img/back-adapt.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 567px;
+    }
+
+    .contacts__title {
+        margin-left: 95px;
+    }
+
+    .contacts__input-number {
+        margin-top: 30px;
+    }
+
+    .contacts__btn_marign {
+        margin-top: 30px;
+    }
+
+    *:before,
+    *:after {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+
+    .contacts__custom-checkbox {
+        position: absolute;
+        z-index: -1;
+        opacity: 0;
+    }
+
+    .contacts__custom-checkbox+label {
+        display: inline-flex;
+        align-items: center;
+        user-select: none;
+    }
+
+    .contacts__custom-checkbox+label::before {
+        content: '';
+        box-sizing: border-box;
+        width: 18px;
+        height: 18px;
+        left: 0px;
+        top: 2px;
+        border: 1px solid #535554;
+        border-radius: 2px;
+    }
+
+    .contacts__custom-checkbox:checked+label::before {
+        background-image: url(../icons/1.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 80%;
+    }
+
+    .contacts__checkbox-text-decor {
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 11px;
+        line-height: 120%;
+        color: #2D2D2D;
+        margin-left: 10px;
+        width: 300px;
+        height: 26px;
+    }
+
+    .contacts__checkbox-a-decor {
+        text-decoration: underline;
+        color: #2D2D2D;
+    }
+
+    .contacts__checkbox {
+        justify-content: center;
+        margin-top: 15px;
+        align-items: center;
+        display: block;
+        width: 370px;
+    }
+
+    .contacts__decor-up {
+        margin-top: 30px;
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 142.19%;
+        color: #2D2D2D;
+
+    }
+
+    .contacts__inp-text_margin {
+        margin-left: 14px;
+    }
+
+}
+
+@media (max-width:320px) {
+    .slider__main {
+        content: url(../img/cran-adapt-two.png);
+    }
+
+    .slider__list {
+        width: 290px;
+        height: 213.31px;
+        overflow: hidden;
+    }
+
+    .slider__img {
+        content: url(../img/cran-adapt-mini-two.png);
+    }
+
+    .tabs__item-img {
+        margin-top: 30px;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .slider__info-text {
+        display: none;
+    }
+
+    .slider__block {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .cats__main {
+        background: none
+    }
+
+    .container {
+        width: 291px;
+    }
+
+    .contacts__input-name {
+        width: 291px;
+        height: 50px;
+    }
+
+    .contacts__input-number {
+        width: 291px;
+        height: 50px;
+    }
+
+    .contacts__btn {
+        width: 291px;
+        height: 50px;
+    }
+
+    .container__flex-one {
+
+        flex-direction: column;
+    }
+
+    .tabs__item-img-decor-one {
+        content: url(../img/1\ adapt\ two.png);
+    }
+
+    .tabs__item-img-decor-two {
+        content: url(../img/2\ adapt\ two.png);
+    }
+
+    .tabs__item-img-decor-three {
+        content: url(../img/3\ adapt\ two.png);
+    }
+
+    .tabs__nav {
+        overflow-x: auto;
+    }
+
+    .tabs__item-img-decor-three_margin-two {
+        margin-top: 48px;
+    }
+
+    .tabs__item-img-decor-two_margin {
+        margin-top: 48px;
+    }
+
+    .slider-two__card {
+        width: 290px;
+        height: 531px;
+    }
+    .slider-two__img-two{
+        content: url(../img/cran-adapt-mob.png);
+    }
+    .slider-two__card-back {
+        background-image: url(../img/back-adapt\ mob.png);
+        width: 290px;
+        height: 90px;
+    }
+    .slider-two__card-decor {
+       margin-left: 24px;
+    }
+    .contacts__input-number {
+        margin-top: 30px;
+    }
+
+    .contacts__btn_marign {
+        margin-top: 30px;
+    }
+    *:before,
+    *:after {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+
+    .contacts__custom-checkbox {
+        position: absolute;
+        z-index: -1;
+        opacity: 0;
+    }
+
+    .contacts__custom-checkbox+label {
+        display: inline-flex;
+        align-items: center;
+        user-select: none;
+    }
+
+    .contacts__custom-checkbox+label::before {
+        content: '';
+        box-sizing: border-box;
+        width: 18px;
+        height: 18px;
+        left: 0px;
+        top: 2px;
+        border: 1px solid #535554;
+        border-radius: 2px;
+    }
+
+    .contacts__custom-checkbox:checked+label::before {
+        background-image: url(../icons/1.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 80%;
+    }
+
+    .contacts__checkbox-text-decor {
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 11px;
+        line-height: 120%;
+        color: #2D2D2D;
+        margin-left: 10px;
+        width: 250px;
+        height: 26px;
+    }
+
+    .contacts__checkbox-a-decor {
+        text-decoration: underline;
+        color: #2D2D2D;
+    }
+
+    .contacts__checkbox {
+        justify-content: center;
+        margin-top: 15px;
+        align-items: center;
+        display: block;
+        width: 291px;
+    }
+    .contacts {
+        margin-top: 120px;
+        background-image: url(../img/back-adapt.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 651px;
+    }
+    .contacts__title {
+        width: 299px;
+        height: 114px;
+    }
+    .contacts__block {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+        height: 651px;
+    }
+    .slider-two__title {
+        width: 299px;
+        height: 57px;
+    }
+    .slider-two__buttons-and-line{
+        display: none;
+    }
+    .slider-two__line {
+        display: flex;
+        margin-top: 41px;
+        width: 290px;
+        position: relative;
+        left: 0;
+        transition: 0.8s ease 0s;
+        flex-direction: column;
+        align-items: center;
+    }
+    .slider-two__card__none{
+        display: none;
+    }
+    .slider-two__card_margin {
+        margin-left: 0;
+        margin-top: 30px;
+    }
+    .slider-two__title {
+        font-size: 37px;
+    }
+    .tabs__card_none{
+        display: none;
+    }
+    .tabs__info-flex {
+        margin-top: 53px;
+        display: flex;
+        margin-left: 30px;
+        flex-direction: column;
+    }
+    .slider__info-flex {
+        display: flex;
+        margin-left: 30px;
+        align-items: center;
+    }
+    .slider__info-flex {
+        margin-left: 0px; 
+    }
+}
