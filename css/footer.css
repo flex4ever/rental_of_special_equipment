@@ -53,7 +53,7 @@ footer {
 }
 
 .footer__text {
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 11px;
@@ -93,7 +93,7 @@ footer {
 
 .footer__list {
 
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
@@ -105,7 +105,7 @@ footer {
 }
 
 .footer__list-main {
-
+    font-family: 'Roboto', sans-serif;
     font-size: 13px;
     line-height: 15px;
 
@@ -139,7 +139,7 @@ footer {
 }
 
 .footer__text-one {
-    font-family: 'PT Sans';
+    font-family: 'PT Sans' , sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 15px;
