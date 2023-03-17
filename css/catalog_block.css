@@ -1,10 +1,5 @@
-
 @import url(./footer.css);
 @import url(../css/header.css);
-
-
-
-
 @import url(../css/catalog_block-button.css);
 @import url(../css/catalog_block-input.css);
 
@@ -769,15 +764,15 @@ body {
     display: flex !important;
 }
 
-.catalog__btn-none {}
-
 .catalog__filter {
-display: none;
+    display: none;
 }
-.catalog__filter-block{
-display: none;
+
+.catalog__filter-block {
+    display: none;
 }
-.active-right{
+
+.active-right {
     transition: 0.8s ease 0s;
     margin-left: 1000px;
 }
