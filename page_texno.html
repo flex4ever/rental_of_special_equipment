@@ -1,732 +1,926 @@
 <!DOCTYPE html>
 <html lang="ru">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>Страница товара</title>
-    <link rel="stylesheet" href="./css/page_texno.css">
-    <link rel="stylesheet" href="./css/page_texno_media.css">
-    <link rel="stylesheet" href="./css/media.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com/%22%3E">
-    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;900&display=swap"
-        rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com/%22%3E">
-    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/page_texno.css" />
+    <link rel="stylesheet" href="./css/page_texno_media.css" />
+    <link rel="stylesheet" href="./css/media.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com/%22%3E" />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com/%22%3E" />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
     <script src="
-https://cdn.jsdelivr.net/npm/swiper@9.1.0/swiper-bundle.min.js
-"></script>
-    <link href="
-https://cdn.jsdelivr.net/npm/swiper@9.1.0/swiper-bundle.min.css
-" rel="stylesheet">
-</head>
+    https://cdn.jsdelivr.net/npm/swiper@9.1.0/swiper-bundle.min.js
+    "></script>
+    <link
+      href="
+    https://cdn.jsdelivr.net/npm/swiper@9.1.0/swiper-bundle.min.css
+    "
+      rel="stylesheet"
+    />
+  </head>
 
-<body>
-
+  <body>
     <header>
-        <div class="menu">
-            <div class="hight-block">
-                <div class="container flex-between">
-                    <div class="hight-block_logo-text">
-                        <img src="icons/LOGO-EVRO-KRAN.svg" alt="" class="hight-block_company-logo">
-                        <p class="hight-block_company-description">
-                            Аренда спецтехники LIEBHERR c 2000 года
-                        </p>
-                    </div>
-                    <div class="hight-block_address-time">
-                        <div class="hight-block_time">
-                            <img src="icons/logo-time.svg" alt="" class="hight-block_icons">
-                            <p class="hight-block_company-data">10:00-17:00</p>
-                        </div>
-                        <div class="hight-block_adress">
-                            <img src="icons/logo-geopoz.svg" alt="" class="hight-block_icons">
-                            <p class="hight-block_company-place "> г. Москва,
-                                ул. Куликовская, 12</p>
-                        </div>
-                    </div>
-                    <div class="hight-block_button">
-                        <p class="hight-block_text-button">Cвяжитесь со мной</p>
-                    </div>
-                    <div class="hight-block_telephone">
-                        <img src="icons/logo-telephone.svg" alt="" class="hight-block_icon-telephone">
-
-                        <p class="hight-block_telephone-numbers"> +7 (499)929-96-66
-                            +7 (985)364-55-18
-                            +7 (985)226-20-30</p>
-
-                    </div>
-                </div>
+      <div class="menu">
+        <div class="hight-block">
+          <div class="container flex-between">
+            <div class="hight-block_logo-text">
+              <img
+                src="icons/LOGO-EVRO-KRAN.svg"
+                alt=""
+                class="hight-block_company-logo"
+              />
+              <p class="hight-block_company-description">
+                Аренда спецтехники LIEBHERR c 2000 года
+              </p>
             </div>
-            <div class="down-block">
-                <div class="container flex-down-nav">
-                    <div class="menu_icon">
-                        <span></span>
-                    </div>
-                    <div class="down-block_nav ">
-
-                        <a href="" class="down-block_headings">Каталог</a>
-                        <a href="" class="down-block_headings">Услуги</a>
-                        <a href="" class="down-block_headings">О компании</a>
-                        <a href="" class="down-block_headings">Объекты</a>
-                        <a href="" class="down-block_headings">Цены</a>
-                        <a href="" class="down-block_headings">Блок</a>
-                        <a href="" class="down-block_headings">Контакты</a>
-                    </div>
-                    <div class="down-block_search">
-                        <input type="search" class="down-blcok_search-in-site">
-                        <img src="icons/search.svg" alt="" class="down-block_loupe-icon">
-                    </div>
-                </div>
+            <div class="hight-block_address-time">
+              <div class="hight-block_time">
+                <img
+                  src="icons/logo-time.svg"
+                  alt=""
+                  class="hight-block_icons"
+                />
+                <p class="hight-block_company-data">10:00-17:00</p>
+              </div>
+              <div class="hight-block_adress">
+                <img
+                  src="icons/logo-geopoz.svg"
+                  alt=""
+                  class="hight-block_icons"
+                />
+                <p class="hight-block_company-place">
+                  г. Москва, ул. Куликовская, 12
+                </p>
+              </div>
             </div>
+            <div class="hight-block_button">
+              <p class="hight-block_text-button">Cвяжитесь со мной</p>
+            </div>
+            <div class="hight-block_telephone">
+              <img
+                src="icons/logo-telephone.svg"
+                alt=""
+                class="hight-block_icon-telephone"
+              />
+
+              <p class="hight-block_telephone-numbers">
+                +7 (499)929-96-66 +7 (985)364-55-18 +7 (985)226-20-30
+              </p>
+            </div>
+          </div>
         </div>
+        <div class="down-block">
+          <div class="container flex-down-nav">
+            <div class="menu_icon">
+              <span></span>
+            </div>
+            <div class="down-block_nav">
+              <a href="" class="down-block_headings">Каталог</a>
+              <a href="" class="down-block_headings">Услуги</a>
+              <a href="" class="down-block_headings">О компании</a>
+              <a href="" class="down-block_headings">Объекты</a>
+              <a href="" class="down-block_headings">Цены</a>
+              <a href="" class="down-block_headings">Блок</a>
+              <a href="" class="down-block_headings">Контакты</a>
+            </div>
+            <div class="down-block_search">
+              <input type="search" class="down-blcok_search-in-site" />
+              <img
+                src="icons/search.svg"
+                alt=""
+                class="down-block_loupe-icon"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
     </header>
 
-
     <main>
+      <div class="container">
+        <div class="way">
+          <a href="@" class="way__link">Главная</a>
+          <p class="way__link">&nbsp;-&nbsp;</p>
+          <a href="@" class="way__link">Каталог</a>
+          <p class="way__link">&nbsp;-&nbsp;</p>
+          <p class="way__decor">Страница товара</p>
+        </div>
+      </div>
+      <div class="cats__main">
         <div class="container">
-            <div class="way">
-                <a href="@" class="way__link">Главная</a>
-                <p class="way__link">&nbsp;-&nbsp;</p>
-                <a href="@" class="way__link">Каталог</a>
-                <p class="way__link">&nbsp;-&nbsp;</p>
-                <p class="way__decor">Страница товара</p>
+          <div class="slider">
+            <h1 class="slider__title">Гусеничный кран Liebherr LR 1750</h1>
+            <div class="slider__block">
+              <div class="slider__flex">
+                <div class="slider__main-block">
+                  <div class="slider__list">
+                    <div class="slider__track">
+                      <img
+                        id="1"
+                        class="slider__main"
+                        src="./img/cran.png"
+                        alt=""
+                      />
+                      <img class="slider__main" src="./img/cran.png" alt="" />
+                      <img class="slider__main" src="./img/cran.png" alt="" />
+                      <img class="slider__main" src="./img/cran.png" alt="" />
+                    </div>
+                  </div>
+                </div>
+                <div class="slider__imgs">
+                  <img class="slider__img" src="./img/cran-two.png" alt="" />
+                  <img
+                    class="slider__img slider__img_left"
+                    src="./img/cran-two.png"
+                    alt=""
+                  />
+                  <img
+                    class="slider__img slider__img_left"
+                    src="./img/cran-two.png"
+                    alt=""
+                  />
+                </div>
+              </div>
+
+              <div class="slider__info">
+                <div class="slider__info-flex">
+                  <div class="slider__info-one">
+                    <ul>
+                      <li class="slider__info-text">
+                        Максимальная грузоподъемность:
+                      </li>
+                      <li class="slider__info-text slider__info-text_marign">
+                        При вылете стрелы:
+                      </li>
+                      <li class="slider__info-text slider__info-text_marign">
+                        Главная стрела:
+                      </li>
+                      <li class="slider__info-text slider__info-text_marign">
+                        Максимальная высота подъема:
+                      </li>
+                      <li class="slider__info-text slider__info-text_marign">
+                        Максимальный вылет стрелы:
+                      </li>
+                      <li class="slider__info-text slider__info-text_marign">
+                        Решетчатый удлинитель:
+                      </li>
+                      <li class="slider__info-text slider__info-text_marign">
+                        Скорость передвижения:
+                      </li>
+                      <li
+                        class="slider__info-text-strong slider__info-text-strong_margin"
+                      >
+                        Стоимость аренды:
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="slider__info-two">
+                    <ul>
+                      <li class="slider__info-text">750 т</li>
+                      <li class="slider__info-text slider__info-text_marign">
+                        7,00 м
+                      </li>
+                      <li class="slider__info-text slider__info-text_marign">
+                        140 м
+                      </li>
+                      <li class="slider__info-text slider__info-text_marign">
+                        191 м
+                      </li>
+                      <li class="slider__info-text slider__info-text_marign">
+                        156 м
+                      </li>
+                      <li class="slider__info-text slider__info-text_marign">
+                        от 14,00 до 105,00 м
+                      </li>
+                      <li class="slider__info-text slider__info-text_marign">
+                        1,65 км/ч
+                      </li>
+                      <li
+                        class="slider__info-text-strong slider__info-text-strong_margin"
+                      >
+                        Договорная
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <a href="@" class="slider__info-btn">
+                  <p class="slider__info-btn-decor">Заказать</p>
+                </a>
+              </div>
             </div>
-        </div>
-        <div class="cats__main">
-            <div class="container">
-                <div class="slider">
-                    <h1 class="slider__title">Гусеничный кран Liebherr LR 1750</h1>
-                    <div class="slider__block">
-                        <div class="slider__flex">
-                            <div class="slider__main-block">
-                                <div class="slider__list">
-                                    <div class="slider__track">
-                                        <img id="1" class="slider__main" src="./img/cran.png" alt="">
-                                        <img class="slider__main " src="./img/cran.png" alt="">
-                                        <img class="slider__main " src="./img/cran.png" alt="">
-                                        <img class="slider__main " src="./img/cran.png" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="slider__imgs">
+          </div>
 
-                                <img class="slider__img" src="./img/cran-two.png" alt="">
-                                <img class="slider__img slider__img_left" src="./img/cran-two.png" alt="">
-                                <img class="slider__img slider__img_left" src="./img/cran-two.png" alt="">
-
-                            </div>
-                        </div>
-
-                        <div class="slider__info">
-                            <div class="slider__info-flex">
-                                <div class="slider__info-one">
-                                    <ul>
-                                        <li class="slider__info-text">Максимальная грузоподъемность:</li>
-                                        <li class="slider__info-text slider__info-text_marign">При вылете стрелы:</li>
-                                        <li class="slider__info-text slider__info-text_marign">Главная стрела:</li>
-                                        <li class="slider__info-text slider__info-text_marign">Максимальная высота
-                                            подъема:
-                                        </li>
-                                        <li class="slider__info-text slider__info-text_marign">Максимальный вылет
-                                            стрелы:
-                                        </li>
-                                        <li class="slider__info-text slider__info-text_marign">Решетчатый удлинитель:
-                                        </li>
-                                        <li class="slider__info-text slider__info-text_marign">Скорость передвижения:
-                                        </li>
-                                        <li class="slider__info-text-strong slider__info-text-strong_margin">Стоимость
-                                            аренды:</li>
-                                    </ul>
-                                </div>
-                                <div class="slider__info-two">
-
-                                    <ul>
-                                        <li class="slider__info-text">750 т</li>
-                                        <li class="slider__info-text slider__info-text_marign">7,00 м</li>
-                                        <li class="slider__info-text slider__info-text_marign">140 м</li>
-                                        <li class="slider__info-text slider__info-text_marign">191 м</li>
-                                        <li class="slider__info-text slider__info-text_marign">156 м</li>
-                                        <li class="slider__info-text slider__info-text_marign">от 14,00 до 105,00 м
-                                        </li>
-                                        <li class="slider__info-text slider__info-text_marign">1,65 км/ч</li>
-                                        <li class="slider__info-text-strong slider__info-text-strong_margin">Договорная
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <a href="@" class="slider__info-btn">
-                                <p class="slider__info-btn-decor">Заказать</p>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="tabs">
-
-                    <div class="tabs__nav">
-                        <button class="tabs__nav-btn active" type="button" data-tab="#tab_1">
-                            <p> Описание</p>
-                        </button>
-                        <button class="tabs__nav-btn tabs__nav-btn_margin-one" type="button" data-tab="#tab_2">
-                            <p> Характеристики</p>
-                        </button>
-                        <button class="tabs__nav-btn tabs__nav-btn_margin-two" type="button" data-tab="#tab_3">
-                            <p> Документация</p>
-                        </button>
-                    </div>
-                    <div class="tabs__content">
-                        <div class="tabs__item  activeTwo" id="tab_1">
-                            <h2 class="tabs__item-title">Аренда гусеничного крана Liebherr LR 1750</h2>
-                            <p class="tabs__item-text-decor">
-                                Гусеничный кран LR 1750 находит свое применение в строительстве электростанций,
-                                нефтеперерабатывающих заводов, на строительных площадках мостов и при монтаже
-                                ветросиловых
-                                установок.
-                            </p>
-                            <p class="tabs__item-text-decor">
-                                Эта 750-тонная машина имеет универсальное применение со своей 140-метровой основной
-                                стрелой,
-                                105-метровым управляемым удлинителем стрелы, 21-метровым монтажным удлинителем,
-                                деррик-оборудованием и 400-тонным подвесным противовесом или балластировочной тележкой.
-                            </p>
-                            <p class="tabs__item-text-decor">
-                                Компактные габариты компонентов подъемного крана и их умеренный индивидуальный вес
-                                позволяют
-                                обеспечить экономичную транспортировку этого подъемного крана к строительной площадке.
-                            </p>
-                            <p class="tabs__item-text-decor">
-                                Этот 750-тонный кран может также использоваться с выдвижными опорами, имеющими опорную
-                                базу
-                                13 x 13 м. Результирующая грузоподъемность в этом случае может быть увеличена до 370 %.
-                            </p>
-                            <div class="tabs__item-img">
-                                <img class="tabs__item-img-decor-one" src="./img/1.png" alt="">
-                                <img class="tabs__item-img-decor-two tabs__item-img-decor-two_margin" src="./img/2.png"
-                                    alt="">
-                                <img class="tabs__item-img-decor-three tabs__item-img-decor-three_margin tabs__item-img-decor-three_margin-two"
-                                    src="./img/3.png" alt="">
-                            </div>
-                            <h1 class="tabs__item-title">Заголовок</h1>
-
-                            <p class="tabs__item-text-decor tabs__item-text-decor_top">
-                                Гусеничный кран LR 1750 находит свое применение в строительстве электростанций,
-                                нефтеперерабатывающих заводов, на строительных площадках мостов и при монтаже
-                                ветросиловых
-                                установок.
-                            </p>
-                            <p class="tabs__item-text-decor">
-                                Эта 750-тонная машина имеет универсальное применение со своей 140-метровой основной
-                                стрелой,
-                                105-метровым управляемым удлинителем стрелы, 21-метровым монтажным удлинителем,
-                                деррик-оборудованием и 400-тонным подвесным противовесом или балластировочной тележкой.
-                            </p>
-                            <p class="tabs__item-text-decor">
-                                Компактные габариты компонентов подъемного крана и их умеренный индивидуальный вес
-                                позволяют
-                                обеспечить экономичную транспортировку этого подъемного крана к строительной площадке.
-                            </p>
-                            <p class="tabs__item-text-decor">
-                                Этот 750-тонный кран может также использоваться с выдвижными опорами, имеющими опорную
-                                базу
-                                13 x 13 м. Результирующая грузоподъемность в этом случае может быть увеличена до 370 %.
-                            </p>
-                            <p class="tabs__item-text-decor">
-                                Гусеничный кран LR 1750 находит свое применение в строительстве электростанций,
-                                нефтеперерабатывающих заводов, на строительных площадках мостов и при монтаже
-                                ветросиловых
-                                установок.
-
-                            </p>
-                            <p class="tabs__item-text-decor">
-                                Эта 750-тонная машина имеет универсальное применение со своей 140-метровой основной
-                                стрелой,
-                                105-метровым управляемым удлинителем стрелы, 21-метровым монтажным удлинителем,
-                                деррик-оборудованием и 400-тонным подвесным противовесом или балластировочной тележкой.
-                            </p>
-                            <p class="tabs__item-text-decor">
-
-                                Компактные габариты компонентов подъемного крана и их умеренный индивидуальный вес
-                                позволяют
-                                обеспечить экономичную транспортировку этого подъемного крана к строительной площадке.
-                            </p>
-                            <p class="tabs__item-text-decor">
-                                Этот 750-тонный кран может также использоваться с выдвижными опорами, имеющими опорную
-                                базу
-                                13 x 13 м. Результирующая грузоподъемность в этом случае может быть увеличена до 370
-                                %.Гусеничный кран LR 1750 находит свое применение в строительстве электростанций,
-                                нефтеперерабатывающих заводов, на строительных площадках мостов и при монтаже
-                                ветросиловых
-                                установок.
-                            </p>
-                            <p class="tabs__item-text-decor">
-
-                                Эта 750-тонная машина имеет универсальное применение со своей 140-метровой основной
-                                стрелой,
-                                105-метровым управляемым удлинителем стрелы, 21-метровым монтажным удлинителем,
-                                деррик-оборудованием и 400-тонным подвесным противовесом или балластировочной тележкой.
-                            </p>
-                            <p class="tabs__item-text-decor">
-
-                                Компактные габариты компонентов подъемного крана и их умеренный индивидуальный вес
-                                позволяют
-                                обеспечить экономичную транспортировку этого подъемного крана к строительной площадке.
-                            </p>
-                            <p class="tabs__item-text-decor">
-
-                                Этот 750-тонный кран может также использоваться с выдвижными опорами, имеющими опорную
-                                базу
-                                13 x 13 м. Результирующая грузоподъемность в этом случае может быть увеличена до 370 %.
-                            </p>
-                        </div>
-                        <div class="tabs__item" id="tab_2">
-                            <div class="tabs__info-flex">
-                                <div class="tabs__info-one">
-                                    <ul>
-                                        <li class="tabs__info-text">Максимальная грузоподъемность:</li>
-                                        <li class="tabs__info-text tabs__info-text_marign">При вылете стрелы:</li>
-                                        <li class="tabs__info-text tabs__info-text_marign">Главная стрела:</li>
-                                        <li class="tabs__info-text tabs__info-text_marign">Максимальная высота подъема:
-                                        </li>
-                                        <li class="tabs__info-text tabs__info-text_marign">Максимальный вылет стрелы:
-                                        </li>
-                                        <li class="tabs__info-text tabs__info-text_marign">Решетчатый удлинитель:
-                                        </li>
-                                        <li class="tabs__info-text tabs__info-text_marign">Скорость передвижения:</li>
-                                        <li class="tabs__info-text-strong tabs__info-text-strong_margin">Стоимость
-                                            аренды:</li>
-                                    </ul>
-                                </div>
-                                <div class="slider__info-two">
-                                    <ul>
-                                        <li class="tabs__info-text">750 т</li>
-                                        <li class="tabs__info-text tabs__info-text_marign">7,00 м</li>
-                                        <li class="tabs__info-text tabs__info-text_marign">140 м</li>
-                                        <li class="tabs__info-text tabs__info-text_marign">191 м</li>
-                                        <li class="tabs__info-text tabs__info-text_marign">156 м</li>
-                                        <li class="tabs__info-text tabs__info-text_marign">от 14,00 до 105,00 м
-                                        </li>
-                                        <li class="tabs__info-text tabs__info-text_marign">1,65 км/ч</li>
-                                        <li class="tabs__info-text-strong tabs__info-text-strong_margin">Договорная</li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <a href="@" class="tabs__info-btn">
-                                <p class="tabs__info-btn-decor">Заказать</p>
-                            </a>
-                        </div>
-
-
-                        <div class="tabs__item" id="tab_3">
-                            <div class="tabs__flex">
-                                <div class="tabs__card">
-                                    <img src="./img/doc.png" alt="">
-                                    <a href="" class="tabs__card-text">
-                                        скачать
-                                    </a>
-                                </div>
-                                <div class="tabs__card tabs__card_none">
-                                    <img src="./img/doc.png" alt="">
-                                    <a href="" class="tabs__card-text">
-                                        скачать
-                                    </a>
-                                </div>
-                                <div class="tabs__card tabs__card_none">
-                                    <img src="./img/doc.png" alt="">
-                                    <a href="" class="tabs__card-text">
-                                        скачать
-                                    </a>
-                                </div>
-                                <div class="tabs__card tabs__card_none">
-                                    <img src="./img/doc.png" alt="">
-                                    <a href="" class="tabs__card-text">
-                                        скачать
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+          <div class="tabs">
+            <div class="tabs__nav">
+              <button
+                class="tabs__nav-btn active"
+                type="button"
+                data-tab="#tab_1"
+              >
+                <p>Описание</p>
+              </button>
+              <button
+                class="tabs__nav-btn tabs__nav-btn_margin-one"
+                type="button"
+                data-tab="#tab_2"
+              >
+                <p>Характеристики</p>
+              </button>
+              <button
+                class="tabs__nav-btn tabs__nav-btn_margin-two"
+                type="button"
+                data-tab="#tab_3"
+              >
+                <p>Документация</p>
+              </button>
             </div>
-        </div>
-        </div>
-
-
-        <div class="contacts">
-            <div class="container">
-                <div class="contacts__block">
-                    <p class="contacts__title">
-                        Нужна помощь в подборе?
-                    </p>
-                    <div class="container container__flex-one">
-                        <input class="contacts__input-name contacts__input-name_margin" type="text" placeholder="Имя">
-                        <input class="contacts__input-number contacts__input-number_margin" type="number"
-                            placeholder="Телефон">
-                        <a href="" class="contacts__btn contacts__btn_marign">
-                            <p>Получить консультанцию</p>
-                        </a>
-                        <div class="contacts__checkbox">
-                            <input class="contacts__custom-checkbox" type="checkbox" id="cont">
-                            <label for="cont">
-                                <p class="contacts__checkbox-text-decor"> Я согласен с <a
-                                        class="contacts__checkbox-a-decor" href=""> условиями обработки</a> и
-                                    использования моих персональных данных</p>
-                            </label>
-                        </div>
-                    </div>
-
+            <div class="tabs__content">
+              <div class="tabs__item activeTwo" id="tab_1">
+                <h2 class="tabs__item-title">
+                  Аренда гусеничного крана Liebherr LR 1750
+                </h2>
+                <p class="tabs__item-text-decor">
+                  Гусеничный кран LR 1750 находит свое применение в
+                  строительстве электростанций, нефтеперерабатывающих заводов,
+                  на строительных площадках мостов и при монтаже ветросиловых
+                  установок.
+                </p>
+                <p class="tabs__item-text-decor">
+                  Эта 750-тонная машина имеет универсальное применение со своей
+                  140-метровой основной стрелой, 105-метровым управляемым
+                  удлинителем стрелы, 21-метровым монтажным удлинителем,
+                  деррик-оборудованием и 400-тонным подвесным противовесом или
+                  балластировочной тележкой.
+                </p>
+                <p class="tabs__item-text-decor">
+                  Компактные габариты компонентов подъемного крана и их
+                  умеренный индивидуальный вес позволяют обеспечить экономичную
+                  транспортировку этого подъемного крана к строительной
+                  площадке.
+                </p>
+                <p class="tabs__item-text-decor">
+                  Этот 750-тонный кран может также использоваться с выдвижными
+                  опорами, имеющими опорную базу 13 x 13 м. Результирующая
+                  грузоподъемность в этом случае может быть увеличена до 370 %.
+                </p>
+                <div class="tabs__item-img">
+                  <img
+                    class="tabs__item-img-decor-one"
+                    src="./img/1.png"
+                    alt=""
+                  />
+                  <img
+                    class="tabs__item-img-decor-two tabs__item-img-decor-two_margin"
+                    src="./img/2.png"
+                    alt=""
+                  />
+                  <img
+                    class="tabs__item-img-decor-three tabs__item-img-decor-three_margin tabs__item-img-decor-three_margin-two"
+                    src="./img/3.png"
+                    alt=""
+                  />
                 </div>
+                <h1 class="tabs__item-title">Заголовок</h1>
+
+                <p class="tabs__item-text-decor tabs__item-text-decor_top">
+                  Гусеничный кран LR 1750 находит свое применение в
+                  строительстве электростанций, нефтеперерабатывающих заводов,
+                  на строительных площадках мостов и при монтаже ветросиловых
+                  установок.
+                </p>
+                <p class="tabs__item-text-decor">
+                  Эта 750-тонная машина имеет универсальное применение со своей
+                  140-метровой основной стрелой, 105-метровым управляемым
+                  удлинителем стрелы, 21-метровым монтажным удлинителем,
+                  деррик-оборудованием и 400-тонным подвесным противовесом или
+                  балластировочной тележкой.
+                </p>
+                <p class="tabs__item-text-decor">
+                  Компактные габариты компонентов подъемного крана и их
+                  умеренный индивидуальный вес позволяют обеспечить экономичную
+                  транспортировку этого подъемного крана к строительной
+                  площадке.
+                </p>
+                <p class="tabs__item-text-decor">
+                  Этот 750-тонный кран может также использоваться с выдвижными
+                  опорами, имеющими опорную базу 13 x 13 м. Результирующая
+                  грузоподъемность в этом случае может быть увеличена до 370 %.
+                </p>
+                <p class="tabs__item-text-decor">
+                  Гусеничный кран LR 1750 находит свое применение в
+                  строительстве электростанций, нефтеперерабатывающих заводов,
+                  на строительных площадках мостов и при монтаже ветросиловых
+                  установок.
+                </p>
+                <p class="tabs__item-text-decor">
+                  Эта 750-тонная машина имеет универсальное применение со своей
+                  140-метровой основной стрелой, 105-метровым управляемым
+                  удлинителем стрелы, 21-метровым монтажным удлинителем,
+                  деррик-оборудованием и 400-тонным подвесным противовесом или
+                  балластировочной тележкой.
+                </p>
+                <p class="tabs__item-text-decor">
+                  Компактные габариты компонентов подъемного крана и их
+                  умеренный индивидуальный вес позволяют обеспечить экономичную
+                  транспортировку этого подъемного крана к строительной
+                  площадке.
+                </p>
+                <p class="tabs__item-text-decor">
+                  Этот 750-тонный кран может также использоваться с выдвижными
+                  опорами, имеющими опорную базу 13 x 13 м. Результирующая
+                  грузоподъемность в этом случае может быть увеличена до 370
+                  %.Гусеничный кран LR 1750 находит свое применение в
+                  строительстве электростанций, нефтеперерабатывающих заводов,
+                  на строительных площадках мостов и при монтаже ветросиловых
+                  установок.
+                </p>
+                <p class="tabs__item-text-decor">
+                  Эта 750-тонная машина имеет универсальное применение со своей
+                  140-метровой основной стрелой, 105-метровым управляемым
+                  удлинителем стрелы, 21-метровым монтажным удлинителем,
+                  деррик-оборудованием и 400-тонным подвесным противовесом или
+                  балластировочной тележкой.
+                </p>
+                <p class="tabs__item-text-decor">
+                  Компактные габариты компонентов подъемного крана и их
+                  умеренный индивидуальный вес позволяют обеспечить экономичную
+                  транспортировку этого подъемного крана к строительной
+                  площадке.
+                </p>
+                <p class="tabs__item-text-decor">
+                  Этот 750-тонный кран может также использоваться с выдвижными
+                  опорами, имеющими опорную базу 13 x 13 м. Результирующая
+                  грузоподъемность в этом случае может быть увеличена до 370 %.
+                </p>
+              </div>
+              <div class="tabs__item" id="tab_2">
+                <div class="tabs__info-flex">
+                  <div class="tabs__info-one">
+                    <ul>
+                      <li class="tabs__info-text">
+                        Максимальная грузоподъемность:
+                      </li>
+                      <li class="tabs__info-text tabs__info-text_marign">
+                        При вылете стрелы:
+                      </li>
+                      <li class="tabs__info-text tabs__info-text_marign">
+                        Главная стрела:
+                      </li>
+                      <li class="tabs__info-text tabs__info-text_marign">
+                        Максимальная высота подъема:
+                      </li>
+                      <li class="tabs__info-text tabs__info-text_marign">
+                        Максимальный вылет стрелы:
+                      </li>
+                      <li class="tabs__info-text tabs__info-text_marign">
+                        Решетчатый удлинитель:
+                      </li>
+                      <li class="tabs__info-text tabs__info-text_marign">
+                        Скорость передвижения:
+                      </li>
+                      <li
+                        class="tabs__info-text-strong tabs__info-text-strong_margin"
+                      >
+                        Стоимость аренды:
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="slider__info-two">
+                    <ul>
+                      <li class="tabs__info-text">750 т</li>
+                      <li class="tabs__info-text tabs__info-text_marign">
+                        7,00 м
+                      </li>
+                      <li class="tabs__info-text tabs__info-text_marign">
+                        140 м
+                      </li>
+                      <li class="tabs__info-text tabs__info-text_marign">
+                        191 м
+                      </li>
+                      <li class="tabs__info-text tabs__info-text_marign">
+                        156 м
+                      </li>
+                      <li class="tabs__info-text tabs__info-text_marign">
+                        от 14,00 до 105,00 м
+                      </li>
+                      <li class="tabs__info-text tabs__info-text_marign">
+                        1,65 км/ч
+                      </li>
+                      <li
+                        class="tabs__info-text-strong tabs__info-text-strong_margin"
+                      >
+                        Договорная
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+                <a href="@" class="tabs__info-btn">
+                  <p class="tabs__info-btn-decor">Заказать</p>
+                </a>
+              </div>
+
+              <div class="tabs__item" id="tab_3">
+                <div class="tabs__flex">
+                  <div class="tabs__card">
+                    <img src="./img/doc.png" alt="" />
+                    <a href="" class="tabs__card-text"> скачать </a>
+                  </div>
+                  <div class="tabs__card tabs__card_none">
+                    <img src="./img/doc.png" alt="" />
+                    <a href="" class="tabs__card-text"> скачать </a>
+                  </div>
+                  <div class="tabs__card tabs__card_none">
+                    <img src="./img/doc.png" alt="" />
+                    <a href="" class="tabs__card-text"> скачать </a>
+                  </div>
+                  <div class="tabs__card tabs__card_none">
+                    <img src="./img/doc.png" alt="" />
+                    <a href="" class="tabs__card-text"> скачать </a>
+                  </div>
+                </div>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
 
-        <div class="container ">
-            <div class="slider-two">
-                <div class="slider-two__one-block">
-                    <h2 class="slider-two__title">
-                        Похожие краны
-                        </h1>
-                        <div class="slider-two__buttons-and-line">
-                            <div class="slider-two__buttons">
-
-
-                                <button class="slider-two__button-one"><img class="slider-two__img-left"
-                                        src="./icons/left.svg" alt=""></button>
-
-
-                                <button class="slider-two__button-two ">
-                                    <img src="./icons/right.svg" class="slider-two__img-right" alt="">
-                                </button>
-                            </div>
-                            <div class="slider-two__line-up">
-                                <div class="slider-two__line-active">
-
-                                </div>
-                            </div>
-                        </div>
-                </div>
-
-                <div class="slider-two__line">
-                    <div class="slider-two__card ">
-                        <img class="slider-two__img-two" src="./img/card.png" alt="">
-                        <div class="slider-two__card-back">
-                            <p class="slider-two__card-decor">
-                                Гусеничный кран Liebherr LR 1750
-                            </p>
-                        </div>
-                        <div class="slider-two__text">
-                            <div class="slider-two__text-one">
-                                <p class="slider-two__text-decor">Грузоподъемность:</p>
-                                <p class="slider-two__text-decor">Длина стрелы:</p>
-                            </div>
-                            <div class="slider-two__text-two">
-                                <p class="slider-two__text-decor">40 тонн</p>
-                                <p class="slider-two__text-decor">35 м</p>
-                            </div>
-                        </div>
-                        <div class="slider-two__href">
-                            <a href="" class="slider-two__href-decor">Все характеристики</a>
-                            <img class="slider-two__img" src="./icons/Arrow 1.svg" alt="">
-                        </div>
-                        <a href="" class="slider-two__btn">
-                            <p>Арендовать</p>
-                        </a>
-                    </div>
-
-
-
-                    <div class="slider-two__card slider-two__card_margin">
-                        <img class="slider-two__img-two" src="./img/card.png" alt="">
-                        <div class="slider-two__card-back">
-                            <p class="slider-two__card-decor">
-                                Гусеничный кран Liebherr LR 1750
-                            </p>
-                        </div>
-                        <div class="slider-two__text">
-                            <div class="slider-two__text-one">
-                                <p class="slider-two__text-decor">Грузоподъемность:</p>
-                                <p class="slider-two__text-decor">Длина стрелы:</p>
-                            </div>
-                            <div class="slider-two__text-two">
-                                <p class="slider-two__text-decor">40 тонн</p>
-                                <p class="slider-two__text-decor">35 м</p>
-                            </div>
-                        </div>
-                        <div class="slider-two__href">
-                            <a href="" class="slider-two__href-decor">Все характеристики</a>
-                            <img class="slider-two__img" src="./icons/Arrow 1.svg" alt="">
-                        </div>
-                        <a href="" class="slider-two__btn">
-                            <p>Арендовать</p>
-                        </a>
-                    </div>
-
-
-                    <div class="slider-two__card slider-two__card_margin slider-two__card__none">
-                        <img class="slider-two__img-two" src="./img/card.png" alt="">
-                        <div class="slider-two__card-back">
-                            <p class="slider-two__card-decor">
-                                Гусеничный кран Liebherr LR 1750
-                            </p>
-                        </div>
-                        <div class="slider-two__text">
-                            <div class="slider-two__text-one">
-                                <p class="slider-two__text-decor">Грузоподъемность:</p>
-                                <p class="slider-two__text-decor">Длина стрелы:</p>
-                            </div>
-                            <div class="slider-two__text-two">
-                                <p class="slider-two__text-decor">40 тонн</p>
-                                <p class="slider-two__text-decor">35 м</p>
-                            </div>
-                        </div>
-                        <div class="slider-two__href">
-                            <a href="" class="slider-two__href-decor">Все характеристики</a>
-                            <img class="slider-two__img" src="./icons/Arrow 1.svg" alt="">
-                        </div>
-                        <a href="" class="slider-two__btn">
-                            <p>Арендовать</p>
-                        </a>
-                    </div>
-
-                    <div class="slider-two__card slider-two__card_margin slider-two__card__none">
-                        <img class="slider-two__img-two" src="./img/card.png" alt="">
-                        <div class="slider-two__card-back">
-                            <p class="slider-two__card-decor">
-                                Гусеничный кран Liebherr LR 1750
-                            </p>
-                        </div>
-                        <div class="slider-two__text">
-                            <div class="slider-two__text-one">
-                                <p class="slider-two__text-decor">Грузоподъемность:</p>
-                                <p class="slider-two__text-decor">Длина стрелы:</p>
-                            </div>
-                            <div class="slider-two__text-two">
-                                <p class="slider-two__text-decor">40 тонн</p>
-                                <p class="slider-two__text-decor">35 м</p>
-                            </div>
-                        </div>
-                        <div class="slider-two__href">
-                            <a href="" class="slider-two__href-decor">Все характеристики</a>
-                            <img class="slider-two__img" src="./icons/Arrow 1.svg" alt="">
-                        </div>
-                        <a href="" class="slider-two__btn">
-                            <p>Арендовать</p>
-                        </a>
-                    </div>
-
-                    <div class="slider-two__card slider-two__card_margin slider-two__card__none">
-                        <img class="slider-two__img-two" src="./img/card.png" alt="">
-                        <div class="slider-two__card-back">
-                            <p class="slider-two__card-decor">
-                                Гусеничный кран Liebherr LR 1750
-                            </p>
-                        </div>
-                        <div class="slider-two__text">
-                            <div class="slider-two__text-one">
-                                <p class="slider-two__text-decor">Грузоподъемность:</p>
-                                <p class="slider-two__text-decor">Длина стрелы:</p>
-                            </div>
-                            <div class="slider-two__text-two">
-                                <p class="slider-two__text-decor">40 тонн</p>
-                                <p class="slider-two__text-decor">35 м</p>
-                            </div>
-                        </div>
-                        <div class="slider-two__href">
-                            <a href="" class="slider-two__href-decor">Все характеристики</a>
-                            <img class="slider-two__img" src="./icons/Arrow 1.svg" alt="">
-                        </div>
-                        <a href="" class="slider-two__btn">
-                            <p>Арендовать</p>
-                        </a>
-                    </div>
-
-                    <div class="slider-two__card slider-two__card_margin slider-two__card__none">
-                        <img class="slider-two__img-two" src="./img/card.png" alt="">
-                        <div class="slider-two__card-back">
-                            <p class="slider-two__card-decor">
-                                Гусеничный кран Liebherr LR 1750
-                            </p>
-                        </div>
-                        <div class="slider-two__text">
-                            <div class="slider-two__text-one">
-                                <p class="slider-two__text-decor">Грузоподъемность:</p>
-                                <p class="slider-two__text-decor">Длина стрелы:</p>
-                            </div>
-                            <div class="slider-two__text-two">
-                                <p class="slider-two__text-decor">40 тонн</p>
-                                <p class="slider-two__text-decor">35 м</p>
-                            </div>
-                        </div>
-                        <div class="slider-two__href">
-                            <a href="" class="slider-two__href-decor">Все характеристики</a>
-                            <img class="slider-two__img" src="./icons/Arrow 1.svg" alt="">
-                        </div>
-                        <a href="" class="slider-two__btn">
-                            <p>Арендовать</p>
-                        </a>
-                    </div>
-
-                </div>
+      <div class="contacts">
+        <div class="container">
+          <div class="contacts__block">
+            <p class="contacts__title">Нужна помощь в подборе?</p>
+            <div class="container container__flex-one">
+              <input
+                class="contacts__input-name contacts__input-name_margin"
+                type="text"
+                placeholder="Имя"
+              />
+              <input
+                class="contacts__input-number contacts__input-number_margin"
+                type="number"
+                placeholder="Телефон"
+              />
+              <a href="" class="contacts__btn contacts__btn_marign">
+                <p>Получить консультанцию</p>
+              </a>
+              <div class="contacts__checkbox">
+                <input
+                  class="contacts__custom-checkbox"
+                  type="checkbox"
+                  id="cont"
+                />
+                <label for="cont">
+                  <p class="contacts__checkbox-text-decor">
+                    Я согласен с
+                    <a class="contacts__checkbox-a-decor" href="">
+                      условиями обработки</a
+                    >
+                    и использования моих персональных данных
+                  </p>
+                </label>
+              </div>
             </div>
+          </div>
         </div>
+      </div>
 
+      <div class="container">
+        <div class="slider-two">
+          <div class="slider-two__one-block">
+            <h2 class="slider-two__title">Похожие краны</h2>
+            <div class="slider-two__buttons-and-line">
+              <div class="slider-two__buttons">
+                <button class="slider-two__button-one">
+                  <img
+                    class="slider-two__img-left"
+                    src="./icons/left.svg"
+                    alt=""
+                  />
+                </button>
 
+                <button class="slider-two__button-two">
+                  <img
+                    src="./icons/right.svg"
+                    class="slider-two__img-right"
+                    alt=""
+                  />
+                </button>
+              </div>
+              <div class="slider-two__line-up">
+                <div class="slider-two__line-active"></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="slider-two__line">
+            <div class="slider-two__card">
+              <img class="slider-two__img-two" src="./img/card.png" alt="" />
+              <div class="slider-two__card-back">
+                <p class="slider-two__card-decor">
+                  Гусеничный кран Liebherr LR 1750
+                </p>
+              </div>
+              <div class="slider-two__text">
+                <div class="slider-two__text-one">
+                  <p class="slider-two__text-decor">Грузоподъемность:</p>
+                  <p class="slider-two__text-decor">Длина стрелы:</p>
+                </div>
+                <div class="slider-two__text-two">
+                  <p class="slider-two__text-decor">40 тонн</p>
+                  <p class="slider-two__text-decor">35 м</p>
+                </div>
+              </div>
+              <div class="slider-two__href">
+                <a href="" class="slider-two__href-decor">Все характеристики</a>
+                <img class="slider-two__img" src="./icons/Arrow 1.svg" alt="" />
+              </div>
+              <a href="" class="slider-two__btn">
+                <p>Арендовать</p>
+              </a>
+            </div>
+
+            <div class="slider-two__card slider-two__card_margin">
+              <img class="slider-two__img-two" src="./img/card.png" alt="" />
+              <div class="slider-two__card-back">
+                <p class="slider-two__card-decor">
+                  Гусеничный кран Liebherr LR 1750
+                </p>
+              </div>
+              <div class="slider-two__text">
+                <div class="slider-two__text-one">
+                  <p class="slider-two__text-decor">Грузоподъемность:</p>
+                  <p class="slider-two__text-decor">Длина стрелы:</p>
+                </div>
+                <div class="slider-two__text-two">
+                  <p class="slider-two__text-decor">40 тонн</p>
+                  <p class="slider-two__text-decor">35 м</p>
+                </div>
+              </div>
+              <div class="slider-two__href">
+                <a href="" class="slider-two__href-decor">Все характеристики</a>
+                <img class="slider-two__img" src="./icons/Arrow 1.svg" alt="" />
+              </div>
+              <a href="" class="slider-two__btn">
+                <p>Арендовать</p>
+              </a>
+            </div>
+
+            <div
+              class="slider-two__card slider-two__card_margin slider-two__card__none"
+            >
+              <img class="slider-two__img-two" src="./img/card.png" alt="" />
+              <div class="slider-two__card-back">
+                <p class="slider-two__card-decor">
+                  Гусеничный кран Liebherr LR 1750
+                </p>
+              </div>
+              <div class="slider-two__text">
+                <div class="slider-two__text-one">
+                  <p class="slider-two__text-decor">Грузоподъемность:</p>
+                  <p class="slider-two__text-decor">Длина стрелы:</p>
+                </div>
+                <div class="slider-two__text-two">
+                  <p class="slider-two__text-decor">40 тонн</p>
+                  <p class="slider-two__text-decor">35 м</p>
+                </div>
+              </div>
+              <div class="slider-two__href">
+                <a href="" class="slider-two__href-decor">Все характеристики</a>
+                <img class="slider-two__img" src="./icons/Arrow 1.svg" alt="" />
+              </div>
+              <a href="" class="slider-two__btn">
+                <p>Арендовать</p>
+              </a>
+            </div>
+
+            <div
+              class="slider-two__card slider-two__card_margin slider-two__card__none"
+            >
+              <img class="slider-two__img-two" src="./img/card.png" alt="" />
+              <div class="slider-two__card-back">
+                <p class="slider-two__card-decor">
+                  Гусеничный кран Liebherr LR 1750
+                </p>
+              </div>
+              <div class="slider-two__text">
+                <div class="slider-two__text-one">
+                  <p class="slider-two__text-decor">Грузоподъемность:</p>
+                  <p class="slider-two__text-decor">Длина стрелы:</p>
+                </div>
+                <div class="slider-two__text-two">
+                  <p class="slider-two__text-decor">40 тонн</p>
+                  <p class="slider-two__text-decor">35 м</p>
+                </div>
+              </div>
+              <div class="slider-two__href">
+                <a href="" class="slider-two__href-decor">Все характеристики</a>
+                <img class="slider-two__img" src="./icons/Arrow 1.svg" alt="" />
+              </div>
+              <a href="" class="slider-two__btn">
+                <p>Арендовать</p>
+              </a>
+            </div>
+
+            <div
+              class="slider-two__card slider-two__card_margin slider-two__card__none"
+            >
+              <img class="slider-two__img-two" src="./img/card.png" alt="" />
+              <div class="slider-two__card-back">
+                <p class="slider-two__card-decor">
+                  Гусеничный кран Liebherr LR 1750
+                </p>
+              </div>
+              <div class="slider-two__text">
+                <div class="slider-two__text-one">
+                  <p class="slider-two__text-decor">Грузоподъемность:</p>
+                  <p class="slider-two__text-decor">Длина стрелы:</p>
+                </div>
+                <div class="slider-two__text-two">
+                  <p class="slider-two__text-decor">40 тонн</p>
+                  <p class="slider-two__text-decor">35 м</p>
+                </div>
+              </div>
+              <div class="slider-two__href">
+                <a href="" class="slider-two__href-decor">Все характеристики</a>
+                <img class="slider-two__img" src="./icons/Arrow 1.svg" alt="" />
+              </div>
+              <a href="" class="slider-two__btn">
+                <p>Арендовать</p>
+              </a>
+            </div>
+
+            <div
+              class="slider-two__card slider-two__card_margin slider-two__card__none"
+            >
+              <img class="slider-two__img-two" src="./img/card.png" alt="" />
+              <div class="slider-two__card-back">
+                <p class="slider-two__card-decor">
+                  Гусеничный кран Liebherr LR 1750
+                </p>
+              </div>
+              <div class="slider-two__text">
+                <div class="slider-two__text-one">
+                  <p class="slider-two__text-decor">Грузоподъемность:</p>
+                  <p class="slider-two__text-decor">Длина стрелы:</p>
+                </div>
+                <div class="slider-two__text-two">
+                  <p class="slider-two__text-decor">40 тонн</p>
+                  <p class="slider-two__text-decor">35 м</p>
+                </div>
+              </div>
+              <div class="slider-two__href">
+                <a href="" class="slider-two__href-decor">Все характеристики</a>
+                <img class="slider-two__img" src="./icons/Arrow 1.svg" alt="" />
+              </div>
+              <a href="" class="slider-two__btn">
+                <p>Арендовать</p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
 
-
-
-
-
-
-
     <footer>
-        <div class="container">
-            <div class="footer">
-                <div class="footer__about">
-                    <img src="./img/LOGO.svg" class="footer__photo">
-                    <p class="footer__text footer__text_margin-one">Аренда мобильных и гусеничных кранов LIEBHERR
-                    </p>
-                    <p class="footer__text footer__text_margin-two">© 2000-2021 Все права защищены</p>
-                </div>
-                <div class="footer__about">
-                    <ul class="footer_about-width-two">
-                        <li class="footer__list-main">Клиентам</li>
-                        <li class="footer__list footer__list-margin-one">О компании</li>
-                        <li class="footer__list footer__list-margin-two">Услуги</li>
-                        <li class="footer__list footer__list-margin-two">Каталог техники</li>
-                        <li class="footer__list footer__list-margin-two">Аренда кранов</li>
-                        <li class="footer__list footer__list-margin-two">Наши работы</li>
-                        <li class="footer__list footer__list-margin-two">Прайс-лист</li>
-                        <li class="footer__list footer__list-margin-two">Контакты</li>
-                    </ul>
-                </div>
-                <div class="footer__about">
-                    <ul class="footer_about-width-one ">
-                        <li class="footer__list-main">Техника</li>
-                        <li class="footer__list footer__list-margin-one">Гусеничные краны</li>
-                        <li class="footer__list footer__list-margin-two">Мобильные краны</li>
-                        <li class="footer__list footer__list-margin-two">Низеорамные краны</li>
-                        <li class="footer__list footer__list-margin-two">Модульные платформы</li>
-                    </ul>
-                </div>
-                <div class="footer__about">
-                    <ul class="footer_about-width">
-                        <li class="footer__list-main">Услуги</li>
-                        <li class="footer__list footer__list-margin-one footer__list-line-height">Аренда гусеничного
-                            крана</li>
-                        <li class="footer__list footer__list-margin-two footer__list-line-height">Аренда мобильного
-                            крана</li>
-                        <li class="footer__list footer__list-margin-two footer__list-line-height">Аренда башенного
-                            крана
-                        </li>
-                        <li class="footer__list footer__list-margin-three footer__list-line-height">Перевозка
-                            негабаритного груза</li>
-                        <li class="footer__list footer__list-margin-two footer__list-line-height">Разработка ппрк
-                        </li>
-                    </ul>
-                </div>
-                <div class="footer__about-one">
-                    <a href="" class="footer__block">
-                        <p class="footer__text footer__text-one ">Свяжитесь со мной</p>
-                    </a>
-                    <div class="footer__img">
-                        <a href=""><img src="./img/instagram.png" class="footer__photo-one"></a></img>
-                        <a href=""><img src="./img/twitter.png" class="footer__photo-one"></a></img>
-                        <a href=""><img src="./img/whatsApp.png" class="footer__photo-one"></a></img>
-                        <a href=""><img src="./img/VK.png" class="footer__photo-one"></a></img>
-                        <a href=""><img src="./img/yandex.png" class="footer__photo-one"></a></img>
-                    </div>
-                </div>
-                <div class="footer__about-two">
-                    <ul>
-                        <li class="footer__list-main">Контакты</li>
-                        <li class="footer__list footer__list-margin-one">+7 (499)929-96-66</li>
-                        <li class="footer__list ">+7 (985)364-55-18</li>
-                        <li class="footer__list ">+7 (985)226-20-30</li>
-                    </ul>
-                </div>
+      <div class="container">
+        <div class="footer">
+          <div class="footer__about">
+            <img src="./img/LOGO.svg" class="footer__photo" />
+            <p class="footer__text footer__text_margin-one">
+              Аренда мобильных и гусеничных кранов LIEBHERR
+            </p>
+            <p class="footer__text footer__text_margin-two">
+              © 2000-2021 Все права защищены
+            </p>
+          </div>
+          <div class="footer__about">
+            <ul class="footer_about-width-two">
+              <li class="footer__list-main">Клиентам</li>
+              <li class="footer__list footer__list-margin-one">О компании</li>
+              <li class="footer__list footer__list-margin-two">Услуги</li>
+              <li class="footer__list footer__list-margin-two">
+                Каталог техники
+              </li>
+              <li class="footer__list footer__list-margin-two">
+                Аренда кранов
+              </li>
+              <li class="footer__list footer__list-margin-two">Наши работы</li>
+              <li class="footer__list footer__list-margin-two">Прайс-лист</li>
+              <li class="footer__list footer__list-margin-two">Контакты</li>
+            </ul>
+          </div>
+          <div class="footer__about">
+            <ul class="footer_about-width-one">
+              <li class="footer__list-main">Техника</li>
+              <li class="footer__list footer__list-margin-one">
+                Гусеничные краны
+              </li>
+              <li class="footer__list footer__list-margin-two">
+                Мобильные краны
+              </li>
+              <li class="footer__list footer__list-margin-two">
+                Низеорамные краны
+              </li>
+              <li class="footer__list footer__list-margin-two">
+                Модульные платформы
+              </li>
+            </ul>
+          </div>
+          <div class="footer__about">
+            <ul class="footer_about-width">
+              <li class="footer__list-main">Услуги</li>
+              <li
+                class="footer__list footer__list-margin-one footer__list-line-height"
+              >
+                Аренда гусеничного крана
+              </li>
+              <li
+                class="footer__list footer__list-margin-two footer__list-line-height"
+              >
+                Аренда мобильного крана
+              </li>
+              <li
+                class="footer__list footer__list-margin-two footer__list-line-height"
+              >
+                Аренда башенного крана
+              </li>
+              <li
+                class="footer__list footer__list-margin-three footer__list-line-height"
+              >
+                Перевозка негабаритного груза
+              </li>
+              <li
+                class="footer__list footer__list-margin-two footer__list-line-height"
+              >
+                Разработка ппрк
+              </li>
+            </ul>
+          </div>
+          <div class="footer__about-one">
+            <a href="" class="footer__block">
+              <p class="footer__text footer__text-one">Свяжитесь со мной</p>
+            </a>
+            <div class="footer__img">
+              <a href=""
+                ><img src="./img/instagram.png" class="footer__photo-one"
+              /></a>
+              <a href=""
+                ><img src="./img/twitter.png" class="footer__photo-one"
+              /></a>
+              <a href=""
+                ><img src="./img/whatsApp.png" class="footer__photo-one"
+              /></a>
+              <a href=""
+                ><img src="./img/VK.png" class="footer__photo-one"
+              /></a>
+              <a href=""
+                ><img src="./img/yandex.png" class="footer__photo-one"
+              /></a>
             </div>
-            <div class="footer__about-left">
-                <div class="footer__about">
-                    <img src="./img/LOGO.svg" class="footer__photo">
-                    <p class="footer__text footer__text_margin-one">Аренда мобильных и гусеничных кранов LIEBHERR
-                    </p>
-                    <p class="footer__text footer__text_margin-two">© 2000-2021 Все права защищены</p>
-                </div>
-                <div class="footer__about-three">
-                    <ul class="footer_about-width-two">
-                        <li class="footer__list-main">Клиентам</li>
-                        <li class="footer__list footer__list-margin-one">О компании</li>
-                        <li class="footer__list footer__list-margin-two">Услуги</li>
-                        <li class="footer__list footer__list-margin-two">Каталог техники</li>
-                        <li class="footer__list footer__list-margin-two">Аренда кранов</li>
-                        <li class="footer__list footer__list-margin-two">Наши работы</li>
-                        <li class="footer__list footer__list-margin-two">Прайс-лист</li>
-                        <li class="footer__list footer__list-margin-two">Контакты</li>
-                    </ul>
-                </div>
-                <div class="footer__about-five">
-                    <ul class="footer_about-width">
-                        <li class="footer__list-main">Услуги</li>
-                        <li class="footer__list footer__list-margin-one footer__list-line-height">Аренда гусеничного
-                            крана</li>
-                        <li class="footer__list footer__list-margin-two footer__list-line-height">Аренда мобильного
-                            крана</li>
-                        <li class="footer__list footer__list-margin-two footer__list-line-height">Аренда башенного
-                            крана
-                        </li>
-                        <li class="footer__list footer__list-margin-three footer__list-line-height">Перевозка
-                            негабаритного груза</li>
-                        <li class="footer__list footer__list-margin-two footer__list-line-height">Разработка ппрк
-                        </li>
-                    </ul>
-                </div>
-                <div class="footer__about-four">
-                    <ul class="footer_about-width-one ">
-                        <li class="footer__list-main">Техника</li>
-                        <li class="footer__list footer__list-margin-one">Гусеничные краны</li>
-                        <li class="footer__list footer__list-margin-two">Мобильные краны</li>
-                        <li class="footer__list footer__list-margin-two">Низеорамные краны</li>
-                        <li class="footer__list footer__list-margin-two">Модульные платформы</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="footer__about-right">
-                <div class="footer__about-one">
-                    <a href="" class="footer__block">
-                        <p class="footer__text footer__text-one ">Свяжитесь со мной</p>
-                    </a>
-                    <div class="footer__img">
-                        <a href=""><img src="./img/instagram.png" class="footer__photo-one"></a></img>
-                        <a href=""><img src="./img/twitter.png" class="footer__photo-one"></a></img>
-                        <a href=""><img src="./img/whatsApp.png" class="footer__photo-one"></a></img>
-                        <a href=""><img src="./img/VK.png" class="footer__photo-one"></a></img>
-                        <a href=""><img src="./img/yandex.png" class="footer__photo-one"></a></img>
-                    </div>
-                    <p class="footer__text footer__text_margin-three">© 2000-2021 Все права защищены</p>
-                </div>
-                <div class="footer__about-two">
-                    <ul>
-                        <li class="footer__list-main">Контакты</li>
-                        <li class="footer__list footer__list-margin-one">+7 (499)929-96-66</li>
-                        <li class="footer__list ">+7 (985)364-55-18</li>
-                        <li class="footer__list ">+7 (985)226-20-30</li>
-                    </ul>
-                </div>
-            </div>
+          </div>
+          <div class="footer__about-two">
+            <ul>
+              <li class="footer__list-main">Контакты</li>
+              <li class="footer__list footer__list-margin-one">
+                +7 (499)929-96-66
+              </li>
+              <li class="footer__list">+7 (985)364-55-18</li>
+              <li class="footer__list">+7 (985)226-20-30</li>
+            </ul>
+          </div>
         </div>
-
-
-
+        <div class="footer__about-left">
+          <div class="footer__about">
+            <img src="./img/LOGO.svg" class="footer__photo" />
+            <p class="footer__text footer__text_margin-one">
+              Аренда мобильных и гусеничных кранов LIEBHERR
+            </p>
+            <p class="footer__text footer__text_margin-two">
+              © 2000-2021 Все права защищены
+            </p>
+          </div>
+          <div class="footer__about-three">
+            <ul class="footer_about-width-two">
+              <li class="footer__list-main">Клиентам</li>
+              <li class="footer__list footer__list-margin-one">О компании</li>
+              <li class="footer__list footer__list-margin-two">Услуги</li>
+              <li class="footer__list footer__list-margin-two">
+                Каталог техники
+              </li>
+              <li class="footer__list footer__list-margin-two">
+                Аренда кранов
+              </li>
+              <li class="footer__list footer__list-margin-two">Наши работы</li>
+              <li class="footer__list footer__list-margin-two">Прайс-лист</li>
+              <li class="footer__list footer__list-margin-two">Контакты</li>
+            </ul>
+          </div>
+          <div class="footer__about-five">
+            <ul class="footer_about-width">
+              <li class="footer__list-main">Услуги</li>
+              <li
+                class="footer__list footer__list-margin-one footer__list-line-height"
+              >
+                Аренда гусеничного крана
+              </li>
+              <li
+                class="footer__list footer__list-margin-two footer__list-line-height"
+              >
+                Аренда мобильного крана
+              </li>
+              <li
+                class="footer__list footer__list-margin-two footer__list-line-height"
+              >
+                Аренда башенного крана
+              </li>
+              <li
+                class="footer__list footer__list-margin-three footer__list-line-height"
+              >
+                Перевозка негабаритного груза
+              </li>
+              <li
+                class="footer__list footer__list-margin-two footer__list-line-height"
+              >
+                Разработка ппрк
+              </li>
+            </ul>
+          </div>
+          <div class="footer__about-four">
+            <ul class="footer_about-width-one">
+              <li class="footer__list-main">Техника</li>
+              <li class="footer__list footer__list-margin-one">
+                Гусеничные краны
+              </li>
+              <li class="footer__list footer__list-margin-two">
+                Мобильные краны
+              </li>
+              <li class="footer__list footer__list-margin-two">
+                Низеорамные краны
+              </li>
+              <li class="footer__list footer__list-margin-two">
+                Модульные платформы
+              </li>
+            </ul>
+          </div>
         </div>
+        <div class="footer__about-right">
+          <div class="footer__about-one">
+            <a href="" class="footer__block">
+              <p class="footer__text footer__text-one">Свяжитесь со мной</p>
+            </a>
+            <div class="footer__img">
+              <a href=""
+                ><img src="./img/instagram.png" class="footer__photo-one"
+              /></a>
+              <a href=""
+                ><img src="./img/twitter.png" class="footer__photo-one"
+              /></a>
+              <a href=""
+                ><img src="./img/whatsApp.png" class="footer__photo-one"
+              /></a>
+              <a href=""
+                ><img src="./img/VK.png" class="footer__photo-one"
+              /></a>
+              <a href=""
+                ><img src="./img/yandex.png" class="footer__photo-one"
+              /></a>
+            </div>
+            <p class="footer__text footer__text_margin-three">
+              © 2000-2021 Все права защищены
+            </p>
+          </div>
+          <div class="footer__about-two">
+            <ul>
+              <li class="footer__list-main">Контакты</li>
+              <li class="footer__list footer__list-margin-one">
+                +7 (499)929-96-66
+              </li>
+              <li class="footer__list">+7 (985)364-55-18</li>
+              <li class="footer__list">+7 (985)226-20-30</li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </footer>
     <script src="js/header.js"></script>
     <script src="./js/page_texno.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-</body>
-
-
+  </body>
 </html>
