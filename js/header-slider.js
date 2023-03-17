@@ -5,7 +5,8 @@ const BlockImg1 = document.querySelector('.rental');
 const btn1 = document.getElementById('left_first-slider');
 const btn2 = document.getElementById('right_first-slider');
 const scoreSlide = document.getElementById('score-slide');
-
+const scoreBlock = document.querySelector('.right-block_score-text')
+    console.log([scoreSlide, scoreBlock])
 let page = 1;
 let score = 1;
 
@@ -21,16 +22,14 @@ btn2.addEventListener('click', () => {
         BlockImg1.classList.add("not-active-background")
 
     }
+    [scoreSlide, scoreBlock].forEach(el => el.style.color = "white");
     if (page == 3) {
-        BlockImg3.classList.remove("not-active-background")
-        BlockImg2.classList.add("not-active-background")
+        BlockImg3.classList.remove("not-active-background");
+        BlockImg2.classList.add("not-active-background");
+        [scoreSlide, scoreBlock].forEach(el => el.style.color = "black" );
+
     }
     scoreSlide.innerHTML = "0" + page + "/"
-    //if(page == 3) {
-    //BlockImg3.classList.remove("not-active-background")
-    //BlockImg1.classList.add("not-active-background")
-    //}
-    //mne uje othodit' nad :(
 })
 
 btn1.addEventListener('click', () => {
@@ -48,6 +47,8 @@ btn1.addEventListener('click', () => {
     if (page == 3) {
         BlockImg2.classList.remove("not-active-background")
         BlockImg3.classList.add("not-active-background")
+        [scoreSlide, scoreBlock].style.color = 'black';
+
     }
     scoreSlide.innerHTML = "0" + page + "/"
     //if(page == 3) {

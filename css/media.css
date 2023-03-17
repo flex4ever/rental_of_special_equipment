@@ -91,9 +91,6 @@
         align-items: center;
     }
 
-    .special-equipment_slider_right-block {
-        
-    }
 
     .special-equipment_slider-line {
         display: none;
@@ -276,7 +273,7 @@
         margin-right: 10px;
     }
 
-    .slider-done {}
+    
 
     .realise-projects {
         height: 1350px;
@@ -338,7 +335,7 @@
         width: 450px;
     }
 
-    .slider-done_line_slider_line_adaptive {}
+
 
     .cards__slider {
         padding-top: 72px;
@@ -400,7 +397,7 @@
 
 }
 
-@media (width: 320px) {
+@media (max-width: 320px) {
     .right-block_score-text {
         display: none;
     }
@@ -482,7 +479,6 @@
         width: 320px;
     }
 
-    .special-equipment_slider_buttons-lines {}
 
     .special-equipment_slide {
         display: flex;
