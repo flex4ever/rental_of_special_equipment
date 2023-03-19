@@ -201,6 +201,13 @@
         content: url(../img/cran-adapt-mini-two.png);
     }
 
+    .slider__imgs {
+        margin-top: 23px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
     .tabs__item-img {
         margin-top: 30px;
         display: flex;
@@ -273,17 +280,21 @@
         width: 290px;
         height: 531px;
     }
-    .slider-two__img-two{
+
+    .slider-two__img-two {
         content: url(../img/cran-adapt-mob.png);
     }
+
     .slider-two__card-back {
         background-image: url(../img/back-adapt\ mob.png);
         width: 290px;
         height: 90px;
     }
+
     .slider-two__card-decor {
-       margin-left: 24px;
+        margin-left: 24px;
     }
+
     .contacts__input-number {
         margin-top: 30px;
     }
@@ -291,6 +302,7 @@
     .contacts__btn_marign {
         margin-top: 30px;
     }
+
     *:before,
     *:after {
         padding: 0;
@@ -353,6 +365,7 @@
         display: block;
         width: 291px;
     }
+
     .contacts {
         margin-top: 120px;
         background-image: url(../img/back-adapt.png);
@@ -361,10 +374,12 @@
         width: 100%;
         height: 651px;
     }
+
     .contacts__title {
         width: 299px;
         height: 114px;
     }
+
     .contacts__block {
         display: flex;
         flex-direction: column;
@@ -372,13 +387,16 @@
         width: 100%;
         height: 651px;
     }
+
     .slider-two__title {
         width: 299px;
         height: 57px;
     }
-    .slider-two__buttons-and-line{
+
+    .slider-two__buttons-and-line {
         display: none;
     }
+
     .slider-two__line {
         display: flex;
         margin-top: 41px;
@@ -389,31 +407,38 @@
         flex-direction: column;
         align-items: center;
     }
-    .slider-two__card__none{
+
+    .slider-two__card__none {
         display: none;
     }
+
     .slider-two__card_margin {
         margin-left: 0;
         margin-top: 30px;
     }
+
     .slider-two__title {
         font-size: 37px;
     }
-    .tabs__card_none{
+
+    .tabs__card_none {
         display: none;
     }
+
     .tabs__info-flex {
         margin-top: 53px;
         display: flex;
         margin-left: 30px;
         flex-direction: column;
     }
+
     .slider__info-flex {
         display: flex;
         margin-left: 30px;
         align-items: center;
     }
+
     .slider__info-flex {
-        margin-left: 0px; 
+        margin-left: 0px;
     }
 }
