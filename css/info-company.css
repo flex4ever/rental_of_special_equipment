@@ -1,0 +1,1056 @@
+* {
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #F3F3F3;
+
+}
+
+.white-phone {
+    background: #FFFFFF;
+    width: 100%;
+    height: 1113px;
+}
+
+.container {
+    max-width: 1169px;
+    margin: 0 auto;
+
+}
+
+.company {
+    margin-top: 30px;
+    display: flex;
+}
+
+.company__text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 156.69%;
+}
+
+.company__text_color {
+    color: #898989;
+}
+
+.info-company__text {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 141.69%;
+    color: #2D2D2D;
+}
+
+.info-company__text_margin {
+    margin-top: 59px;
+}
+
+.info-company__texteurocran {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 156.69%;
+    color: #2D2D2D;
+}
+
+.info-company__texteurocran_margin-two {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 156.69%;
+    color: #2D2D2D;
+}
+
+.info-company__texteurocran_margin {
+    margin-top: 50px;
+
+}
+
+.img {
+    position: absolute;
+    width: 870px;
+    height: 542px;
+    left: 748px;
+    top: 195px;
+}
+
+.container {
+    max-width: 1169px;
+    margin: 0 auto;
+}
+
+.services__text {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 141.69%;
+
+}
+
+.services__text_margin {
+    margin-top: 183px;
+    color: #2D2D2D;
+}
+
+.services__background-text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 142.19%;
+    color: #FFFFFF;
+    text-align: center;
+
+}
+
+.services__background-phone {
+    width: 369px;
+    height: 52px;
+    background: #FCB427;
+}
+
+.setvices__car-flex {
+    display: flex;
+}
+
+.services__car-flex-threeblocks-one {
+    display: flex;
+    justify-content: space-between;
+}
+
+.services__car-flex-threeblocks {
+    display: flex;
+    justify-content: space-between;
+}
+
+.services__car-flex-column-one {
+    display: none;
+}
+
+.services__car-flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.services__background_flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.services__background_text_align {
+    text-align: center;
+}
+
+.img_margin {
+    margin-top: 35px;
+}
+
+.image__relative {
+    position: relative;
+    top: 160px;
+    right: 225px;
+    overflow: hidden;
+}
+
+.image__underrelative {
+    position: relative;
+    left: 719px;
+}
+
+.relative-z-index {
+    position: relative;
+    z-index: 10;
+}
+
+.slider-js__image_margin {
+    margin-top: 100px;
+}
+
+button {
+    background: none;
+    border: #F3F3F3;
+    border-radius: 4px;
+    padding: 10 20px;
+    font-size: .9rem;
+}
+
+
+
+button:active {
+    color: #fff;
+}
+
+.slider__js {
+    width: 1170px;
+    height: 502px;
+
+    overflow: hidden;
+}
+
+.slider-line {
+
+    overflow: hidden;
+    position: relative;
+    left: 0;
+    display: flex;
+    width: 2200px;
+    height: 502px;
+    transition: all ease 1s;
+}
+
+.slider__photo {
+    margin-right: 32px;
+}
+
+.button__photo_margin {
+    margin-left: 1100px;
+    margin-top: 52px;
+}
+
+.slider__js_margin {
+    margin-top: 41px;
+}
+
+.photo__margin {
+    margin-top: 154px;
+}
+.image-roman{
+    display: none;
+}
+.black-phone {
+    width: 100%;
+    height: 529px;
+    background: rgb(43, 42, 42);
+    margin-top: 154px;
+  
+    background-repeat: no-repeat;
+}
+
+.image-roman {
+    margin-top: 150px;
+}
+
+.under__slider-text {
+
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 141.69%;
+}
+
+.under__slider-text_margin-color {
+    color: #FFFFFF;
+    margin-top: 93px;
+}
+
+.under-slider {
+    display: flex;
+}
+
+.numbers__block-one {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.white-text {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 141.69%;
+    color: #FFFFFF;
+}
+
+
+
+.flex-block-one {
+    width: 269px;
+    height: 209px;
+    margin-top: 30px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.header__block-text-two {
+    display: none;
+}
+
+.flex-block-two {
+    width: 269px;
+    height: 209px;
+    margin-top: 30px;
+
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.text-in--four-blocks {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 156.69%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.block-text-flex {
+    width: 270px;
+    line-height: 156.69%;
+    display: flex;
+    margin-top: 25px;
+    justify-content: center;
+}
+
+.header__block-text {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 141.69%;
+    color: #2D2D2D;
+}
+
+.header__block-text_margin {
+    margin-top: 120px;
+}
+
+.header__block-spam-margin {
+    margin-top: 57px;
+}
+
+.header__block-spam {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 156.69%;
+    color: #2D2D2D;
+}
+
+.contacts__block-text {
+    padding-top: 47px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 37px;
+    color: #000000;
+}
+
+.contacts__block-text_many {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 156.69%;
+    color: #000000;
+}
+
+.contacts__block-text_many_margin {
+    margin-top: 51px;
+}
+
+.icon-text- {
+    margin-top: 34px;
+}
+
+.icon-flex {
+    display: flex;
+}
+
+.contacts__block-text_many_margin_two {
+    margin-top: 34px;
+    margin-left: 25px;
+}
+
+.contacts__block-text-number {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 156.69%;
+    color: #2D2D2D;
+}
+
+.contacts__block-text-number_margin {
+    margin-left: 20px;
+    margin-top: 24px;
+}
+
+.time {
+    margin-left: ;
+    margin-right: 100px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 156.69%;
+    color: #2D2D2D;
+}
+
+.icon-flex-two {
+    display: flex;
+    margin-top: 72px;
+}
+
+.evro-yan {
+    margin-top: 24px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 156.69%;
+    color: #2D2D2D;
+    margin-left: 155px;
+}
+
+.clock {
+    margin-right: 18px;
+    margin-left: -162px;
+}
+
+.search-flex {
+    padding-top: 135px;
+    display: flex;
+    flex-direction: column;
+}
+
+.one-search {
+    width: 470px;
+    height: 50px;
+}
+
+.contacts__block {
+    display: flex;
+    flex-direction: column;
+}
+
+.dffff {
+    display: flex;
+}
+
+.two-search {
+    width: 228px;
+    height: 50px;
+}
+
+.two-search-two {
+    margin-left: 14px;
+    width: 228px;
+    height: 50px;
+}
+
+.flex-search-two {
+    margin-top: 20px;
+    display: flex;
+}
+
+.last-search {
+    width: 470px;
+    height: 139px;
+    margin-top: 20px;
+}
+
+.checkbox-text {
+    margin-top: 20px;
+    display: flex;
+
+}
+
+.width320px {
+    display: none;
+}
+
+.checkbox-text-text {
+    margin-left: 14px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 120%;
+    color: #2D2D2D;
+}
+
+.checkbox-c {
+    width: 18px;
+    height: 18px;
+}
+
+.yellow-block-and-text {
+    margin-top: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 470px;
+    height: 50px;
+    background: #FCB427;
+}
+
+.white-text-on-yellow {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 141.69%;
+    color: #F8F8F8;
+
+}
+
+.image-last {
+    margin-top: 48px;
+    width: 100%;
+}
+
+.photo-div-two {
+    display: none;
+}
+
+.services__car-flex-column-two {
+    display: flex;
+    flex-direction: column;
+}
+
+.header__block-text-two {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 156.69%;
+    color: #2D2D2D;
+    width: 738px;
+}
+
+.info-company__texteurocran-two {
+    display: none;
+
+}
+
+.block__video-two {
+    display: none;
+}
+
+.car__rent-two {
+    display: none;
+}
+
+.blocl__services {
+
+    height: 1113px;
+    width: 100%;
+    background-image: url(../img/услуги.png);
+}
+
+
+.services__text {
+    margin-left: 35px;
+    margin-top: 54px;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 141.69%;
+    color: #2D2D2D;
+}
+
+.block__text-services {
+    display: flex;
+}
+
+.block__car {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    margin-top: 55px;
+}
+
+.block__car-two {
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    margin-top: 61px;
+}
+
+.block__orange {
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background: #FCB427;
+    width: 369px;
+    height: 65px;
+}
+
+.orange__text-two {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 142.19%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.orange__block-two {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 490px;
+    height: 50px;
+    background: #FCB427;
+}
+
+.contacts__block-text_many-two {
+    display: none;
+}
+
+.icon-flex-one {
+    display: flex;
+    display: none;
+}
+.linetop{
+  
+    margin-top: 100px;
+}
+.linebot{
+ 
+  margin-top: -1015px;
+}
+@media (max-width: 780px) {
+    .company {
+        margin-left: 16px;
+    }
+.linetop{
+    display: none;
+}
+.linebot{
+    display: none;
+}
+    .info-company__text {
+        margin-left: 16px;
+    }
+
+    .photo-div-two {
+        display: block;
+    }
+
+    .img-two {
+
+        position: relative;
+        width: 742.71px;
+        height: 510.85px;
+        left: 15px;
+        top: 14.569999999999993px;
+    }
+
+
+    .photo-div {
+        display: none;
+    }
+
+    .info-company__texteurocran {
+        margin-left: 15px;
+    }
+
+    .services__car-flex {
+        display: flex;
+
+    }
+
+    .services__car_flex-threeblocks {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header__block-text {
+        margin-left: 15px;
+    }
+
+    .header__block-text-two {
+        display: block;
+        margin-top: 49px;
+    }
+
+    .header__block-spam {
+        display: none;
+    }
+
+    .header__block-spam-two {
+        margin-left: 15px;
+    }
+
+    .header__block-text-two {
+        margin-left: 15px;
+    }
+
+    .contacts__block-text {
+        margin-left: 15px;
+    }
+
+    .contacts__block-text_many {
+        margin-left: 15px;
+    }
+
+    .image__underrelative {
+        display: none;
+    }
+
+    .info-company__texteurocran {
+
+        display: none;
+    }
+
+    .info-company__texteurocran-two {
+        display: block;
+        margin-top: 30px;
+        margin-left: 15px;
+    }
+
+    .services__text {
+        margin-left: 21px;
+    }
+
+    .button__photo_margin {
+        margin-left: 700px;
+    }
+
+    .slider__js {
+        width: 780px;
+    }
+
+    .block__car {
+        margin-right: 10px;
+        margin-left: 10px;
+        flex-wrap: wrap;
+        height: 1450px;
+    }
+
+    .car__rent-two {
+        margin-top: 10px;
+        display: block;
+    }
+
+    .car__rent-three {
+        display: none;
+    }
+
+    .block__orange {
+        width: 353px;
+    }
+
+    .photo__twenty-eight {
+        width: 354px;
+    }
+
+    .photo__rent {
+        width: 354px;
+    }
+
+    .photo__rent-two {
+        width: 353px;
+    }
+
+    .rent__text {
+        margin-left: 10px;
+    }
+
+    .text__rent-two {
+
+        margin-left: 10px;
+
+    }
+
+    .services__text_margin {
+        margin-top: 570px;
+    }
+
+    .icon-flex {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .icon-text- {
+        width: 21px;
+        height: 30px;
+        left: 10px;
+        position: relative;
+    }
+
+    .phone-img {
+        position: relative;
+        width: 30px;
+        top: 35px;
+        height: 30px;
+        left: 10px;
+    }
+
+    .contacts__block-text-number_margin {
+
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 156.69%;
+        color: #000000;
+        margin-left: 60px;
+        margin-top: -15px;
+    }
+
+    .one-search {
+        width: 354px;
+        height: 50px;
+    }
+
+    .flex-search-two {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .two-search {
+        width: 353px;
+    }
+
+    .two-search-two {
+        width: 350px;
+        margin-top: 20px;
+        margin-left: -1px;
+    }
+
+    .last-search {
+        width: 353px;
+        height: 50px;
+    }
+
+    .search-flex {
+        position: relative;
+        top: 108px;
+        right: 350px;
+    }
+
+    .contacts__block-text_many-two {
+        display: block;
+        width: 737px;
+        margin-left: 15px;
+    }
+
+    .contacts__block-text_many {
+        display: none;
+    }
+
+    .yellow-block-and-text {
+        width: 353px;
+    }
+
+    .icon-text- {
+        display: none;
+    }
+
+    .evro-yan {
+        display: none;
+    }
+
+    .icon-flex-one {
+        margin-left: 15px;
+        margin-top: 30px;
+        display: flex;
+
+    }
+
+    .moscow {
+        margin-left: 25px;
+    }
+
+    .icon-flex-two {
+        display: flex;
+        margin-top: 10px;
+    }
+
+    .icon-flex-three {
+        display: flex;
+    }
+
+    .clockc {
+        margin-top: 25px;
+        margin-left: 11px;
+    }
+
+    .timee {
+        margin-top: 27px;
+        margin-left: 15px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 156.69%;
+        color: #000000;
+    }
+
+    .ttt {
+        margin-left: 11px;
+    }
+
+    .evroyandexf {
+        margin-left: 15px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 156.69%;
+        color: #000000;
+    }
+    .black-phone{
+        background-image: url(../img/palasa.png);
+        height: 839px;
+    }
+    
+    .image-roman {
+        display: block;
+        margin-top: 170px;
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 320px) {
+    .slider__js {
+        width: 288px;
+    }
+    .linetop{
+        display: none;
+    }
+    .linebot{
+        display: none;
+    }
+    .photo__rent {
+        width: 290px;
+    }
+
+    .img-two {
+        position: absolute;
+        width: 291.85px;
+        height: 200.74px;
+        left: 11.67px;
+        top: 594.63px;
+
+    }
+
+    .image-roman {
+        margin-left: -144px;
+        margin-top: 17px;
+        width: 290px;
+        height: 35px;
+        display: block;
+    }
+
+    .header__block-text-two {
+        width: 290px;
+    }
+
+    .slider__photo {
+        height: 393px;
+
+        margin-left: 14px;
+        width: 288px;
+    }
+
+    .photoess {
+        width: 290px;
+
+    }
+
+    .block__orange {
+        width: 290px;
+    }
+
+    .block__car {}
+
+    .prew {
+        margin-left: 100px;
+        margin-top: 0px;
+    }
+
+    .info-company__texteurocran-two {
+        margin-top: 213px;
+        width: 290px;
+    }
+
+    .img-two {
+        top: 234.63px;
+    }
+
+    .services__text_margin {
+        margin-top: 1100px;
+    }
+
+    .button__photo_margin {
+        margin-left: 114px;
+    }
+
+    .black-phone {
+        height: 1205px;
+        background-image: url(../img/palasa.png);
+    }
+
+    .width320px {
+        display: block;
+    }
+
+    .image-roman {
+        display: none;
+    }
+
+    .last-search {
+        margin-top: 25px;
+        width: 290px;
+        height: 139px;
+    }
+
+    .two-search-two {
+        width: 290px;
+        margin-top: 20px;
+        margin-left: -1px;
+    }
+
+    .two-search {
+        width: 290px;
+    }
+
+    .one-search {
+        width: 290px;
+        height: 50px;
+    }
+    .search-flex {
+       margin-top: 100px;
+    }
+    .contacts__block-text_many-two {
+        display: block;
+        width: 290px;
+        margin-left: 15px;
+    }
+    .search-flex{
+    width: 320px;
+    }
+    .yellow-block-and-text {
+        width: 290px;
+    }
+    .search-flex {
+        margin-left: 55px;
+        margin-top: 385px;
+        width: 320px;
+    }
+}
