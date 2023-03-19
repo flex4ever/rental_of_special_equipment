@@ -242,6 +242,7 @@
     .down-block_nav._active {
         margin-top: 170px;
         left: 0px;
+        z-index: 20;
     }
 
     /*.down-block_nav::before {
@@ -347,6 +348,7 @@
     .down-block_nav._active {
         margin-top: 310px;
         left: 0px;
+        z-index: 20;
     }
 
     /*.down-block_nav::before {
