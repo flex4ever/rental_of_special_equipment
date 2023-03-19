@@ -13,7 +13,6 @@ body {
 .white-phone {
     background: #FFFFFF;
     width: 100%;
-    height: 1113px;
 }
 
 .container {
@@ -77,9 +76,9 @@ body {
 
 .img {
     position: absolute;
-    width: 870px;
+    width: 730px;
     height: 542px;
-    left: 748px;
+    left: 968px;
     top: 195px;
 }
 
@@ -219,7 +218,7 @@ button:active {
 }
 
 .slider__js_margin {
-    margin-top: 41px;
+    margin-top: 277px;
 }
 
 .photo__margin {
@@ -443,6 +442,7 @@ button:active {
 
 .dffff {
     display: flex;
+    margin-bottom: 92px;
 }
 
 .two-search {
@@ -479,7 +479,6 @@ button:active {
 
 .checkbox-text-text {
     margin-left: 14px;
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 300;
     font-size: 12px;
