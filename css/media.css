@@ -1,5 +1,5 @@
 @import url(../css/page_texno_media.css);
-
+@import url(../css/catalog_block-media.css);
 
 @media (max-width: 778px) {
     .left-block_wraper-m {

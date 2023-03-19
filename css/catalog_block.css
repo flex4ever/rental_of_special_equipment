@@ -81,6 +81,13 @@ body {
     margin-top: 1180px;
 }
 
+.hight-block {
+    width: 100%;
+    height: 95px;
+    background: #2D2D2D;
+    padding-top: 10px;
+}
+
 .menu__back-text_position-two {
     position: absolute;
     left: 920px;
