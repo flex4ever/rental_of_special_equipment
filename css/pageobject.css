@@ -1,0 +1,455 @@
+@import url(./footer.css);
+@import url(../css/header.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1170px;
+}
+
+.object__text {
+    margin-top: 36px;
+    display: flex;
+}
+
+.text__object {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #898989;
+}
+
+.text__object-two {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+}
+
+.pod__header {
+    margin-top: 36px;
+    display: flex;
+}
+
+.text__unloading {
+    margin-top: 57px;
+}
+
+.text__black {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 141.69%;
+    color: #000000;
+}
+
+.text__white {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 156.69%;
+    color: #000000;
+}
+
+
+button {
+    background: none;
+    border: #F3F3F3;
+    border-radius: 4px;
+    padding: 10 20px;
+    font-size: .9rem;
+}
+
+.buton__knopka {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.button__photo {
+    margin-left: 5px;
+}
+
+button:active {
+    color: #fff;
+}
+
+.slider {
+    margin-top: 41px;
+    width: 1170px;
+    height: 710px;
+    overflow: hidden;
+}
+
+.photo {
+
+    width: 1170px;
+    height: 710px;
+}
+
+.slider__line {
+
+    position: relative;
+    left: 0;
+    display: flex;
+    width: 8190px;
+    height: 710px;
+    transition: all ease 2s;
+}
+
+.pod__slider {
+    justify-content: space-between;
+    display: flex;
+    margin-top: 22px;
+}
+
+.text__header {
+    margin-top: 120px;
+}
+
+.black__header {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 141.69%;
+
+
+    color: #2D2D2D;
+}
+
+.pod__header {
+    flex-direction: column;
+    display: flex;
+    margin-top: 35px;
+}
+
+.header__text {
+    padding-top: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 156.69%;
+    color: #2D2D2D;
+}
+
+.block__Other {
+    margin-top: 36px;
+    display: flex;
+}
+
+.text__Other {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 141.69%;
+    color: #2D2D2D;
+}
+
+.slider-two {
+    margin-top: 41px;
+    width: 1170px;
+    height: 466px;
+    overflow: hidden;
+}
+
+.slider-line-two {
+    position: relative;
+    left: 0;
+    display: flex;
+    width: 2340px;
+    height: 466px;
+    transition: all ease 2s;
+}
+
+.white__block {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 370px;
+    height: 144px;
+    background: #a9a9a9;
+}
+
+.text__white-two {
+    Width: 316px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 142.19%;
+    color: #2D2D2D;
+}
+
+.photo__car {
+    width: 370px;
+    height: 322px;
+}
+
+.general__block {
+    display: flex;
+    flex-direction: column;
+}
+
+.general__block-two {
+    margin-left: 29px;
+    display: flex;
+    flex-direction: column;
+}
+
+.block__more {
+    margin-top: 30px;
+    margin-left: 450px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    border: 1px solid #FCB427;
+    width: 219px;
+    height: 50px;
+}
+
+.more__text {
+
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 141.69%;
+    color: #2D2D2D;
+}
+
+.slider-adaptive {
+    margin-top: 41px;
+    width: 1170px;
+    height: 710px;
+    overflow: hidden;
+    display: none;
+}
+
+.slider-adaptive-telefon {
+    margin-left: 5px;
+    margin-top: 41px;
+    width: 290px;
+    height: 176px;
+    overflow: hidden;
+    display: none;
+}
+
+.slider__line-adaptive {
+    position: relative;
+    left: 0;
+    display: flex;
+    width: 8190px;
+    height: 710px;
+    transition: all ease 2s;
+}
+
+.slider__line-adaptive-telefon {
+    position: relative;
+    left: 0;
+    display: flex;
+    width: 1160px;
+    height: 176px;
+    transition: all ease 2s;
+}
+
+.slider-two-adaptive {
+    display: none;
+    margin-top: 41px;
+    width: 738px;
+    height: 442px;
+    overflow: hidden;
+}
+
+.slider-line-two-adaptive {
+
+    position: relative;
+    left: 0;
+    display: flex;
+    width: 2214px;
+    height: 442px;
+    transition: all ease 2s;
+}
+
+.slider-two-adaptive-telefon {
+    display: none;
+}
+
+.slider-line-two-adaptive-telefon {
+    display: none;
+}
+
+@media (max-width: 780px) {
+    .container {
+        margin: 0 auto;
+        max-width: 738px;
+    }
+
+    .block__more {
+        margin-left: 279px;
+        margin-top: 34px;
+    }
+
+    .buton__knopka {
+        margin-top: 25px;
+    }
+
+    .slider {
+        display: none;
+    }
+
+    .photo {
+        width: 738px;
+        height: 447px;
+    }
+
+    .slider__line {
+        display: none;
+    }
+
+    .slider__line-adaptive {
+        width: 5166px;
+        height: 480px;
+    }
+
+    .slider-adaptive {
+        width: 738px;
+        height: 480px;
+        margin-top: 30px;
+        display: block;
+    }
+
+    .adaptive__photo {
+        display: none;
+    }
+
+    .slider-two {
+        display: none;
+    }
+
+    .slider-two-adaptive {
+        display: block;
+    }
+
+    .photo__car {
+        width: 354px;
+        height: 442px;
+    }
+
+    .white__block {
+        width: 354px;
+    }
+
+}
+
+@media (max-width: 320px) {
+    .container {
+        margin: 0 auto;
+        max-width: 298px;
+    }
+
+    .text__black {
+        white-space: pre;
+    }
+
+    .photo {
+        width: 290px;
+        height: 175px;
+    }
+
+    .slider-adaptive {
+        display: none;
+
+    }
+
+    .slider__line-adaptive {
+        display: none;
+    }
+
+    .slider__line-adaptive-telefon {
+        display: block;
+    }
+
+    .slider-adaptive-telefon {
+        display: block;
+    }
+
+    .adaptive__photo {
+        display: none;
+    }
+
+    .telefon {
+        margin-right: 5px;
+        margin-left: 5px;
+        width: 100px;
+        height: 69px;
+    }
+
+    .text__header {
+        margin-top: 50px;
+    }
+
+    .text__Other {
+        font-size: 32px;
+        white-space: pre;
+    }
+
+    .block__more {
+        margin-left: 51px;
+        margin-top: 30px;
+    }
+
+    .buton__knopka {
+        display: none;
+    }
+
+    .slider-two-adaptive {
+        display: none;
+    }
+
+    .slider-line-two-adaptive {
+        display: none;
+    }
+
+    .slider-two-adaptive-telefon {
+        display: flex;
+    }
+
+    .slider-line-two-adaptive-telefon {
+        margin-left: 5px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .general__block-two {
+        margin-top: 30px;
+        margin-left: 0px;
+        display: flex;
+    }
+
+    .photo__car {
+        width: 290px;
+        height: 209px;
+    }
+
+    .white__block {
+        height: 181px;
+        width: 290px;
+    }
+
+    .text__white-two {
+        margin-top: 7px;
+        Width: 217px;
+        margin-left: -65px;
+    }
+}

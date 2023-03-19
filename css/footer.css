@@ -177,7 +177,7 @@ footer {
 
 @media (max-width: 800px) {
     footer {
-        margin-top: -10px;
+        margin-top: 120px;
         height: 100%;
     }
 
