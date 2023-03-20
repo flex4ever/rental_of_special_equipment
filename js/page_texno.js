@@ -38,10 +38,10 @@ btnRight.addEventListener("click", function () {
 
   }
   sliderLineTwo.style.left = -offSet + 'px';
-  btnIconTwo.classList.add('activeBtn-right');
-  btnIconOne.classList.remove('activeBtn-left');
-  btnRight.classList.add('activeBtn');
-  btnLeft.classList.remove('activeBtn');
+  // btnIconTwo.classList.add('activeBtn-right');
+  // btnIconOne.classList.remove('activeBtn-left');
+  // btnRight.classList.add('activeBtn');
+  // btnLeft.classList.remove('activeBtn');
   offSetLine += 30;
   sliderLineUp.style.left = offSetLine + "px"
   if (offSetLine > 91) {
@@ -57,10 +57,10 @@ btnLeft.addEventListener("click", function () {
     offSet = 1200;
   }
   sliderLineTwo.style.left = -offSet + 'px';
-  btnIconTwo.classList.remove('activeBtn-right');
-  btnIconOne.classList.add('activeBtn-left');
-  btnRight.classList.remove('activeBtn');
-  btnLeft.classList.add('activeBtn');
+  // btnIconTwo.classList.remove('activeBtn-right');
+  // btnIconOne.classList.add('activeBtn-left');
+  // btnRight.classList.remove('activeBtn');
+  // btnLeft.classList.add('activeBtn');
   offSetLine -= 30;
   sliderLineUp.style.left = offSetLine + "px"
   if (offSetLine < 0) {

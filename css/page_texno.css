@@ -414,14 +414,12 @@ input {
     cursor: pointer;
     background: none;
     position: relative;
-    margin-left: 22px;
-
-
+    margin-left: 100px;
 }
 
 .slider-two__buttons {
     display: flex;
-    width: 92px;
+    width: 122px;
     height: 40px;
     justify-content: space-between;
 }
