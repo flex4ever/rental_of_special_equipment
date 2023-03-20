@@ -21,14 +21,22 @@
 @media (width: 320px) {
     .all_cards_card {
         width: 290px;
-        height: 381px;
+        height: 550px;
     }
+.arends{
+    width: 271px;
+    margin-left: 10px;
+}
 
+.orange__block{
+    margin-left: -2px;
+}
     .card_img {
         width: 293.28px;
         height: 209.03px;
     }
     .card_description{
+        margin-left: 4px;
         padding-left: 7px;
         width: 275px;
         margin-top: 19px;
