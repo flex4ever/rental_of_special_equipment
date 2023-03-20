@@ -626,7 +626,7 @@ input:invalid{
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 770px) {
     .container {
         margin: 0px auto;
         max-width: 738px !important;
@@ -636,6 +636,11 @@ input:invalid{
         align-items: center;
         margin-top: 36px;
     }
+        .contacts__main-flex {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap!important;
+        }
     .contacts__modal {
         margin-left: 90px;
         margin-top: 160px;
@@ -652,7 +657,7 @@ input:invalid{
     }
 
     .contacts__block-two {
-        margin-top: 1px;
+        margin-top: 60px;
         margin-left: 1px;
         position: relative;
     }

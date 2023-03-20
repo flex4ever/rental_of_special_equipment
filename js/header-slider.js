@@ -34,6 +34,7 @@ btn2.addEventListener('click', () => {
 
 btn1.addEventListener('click', () => {
     page++
+    
     if (page == 4){
         page=1;
         BlockImg1.classList.remove("not-active-background")

@@ -16,7 +16,7 @@ body {
 }
 
 .container {
-    max-width: 1169px;
+    max-width: 1170px;
     margin: 0 auto;
 
 }
@@ -79,7 +79,7 @@ body {
     width: 730px;
     height: 542px;
     left: 968px;
-    top: 195px;
+    top: 396px;
 }
 
 .container {
@@ -213,12 +213,12 @@ button:active {
 }
 
 .button__photo_margin {
-    margin-left: 1100px;
-    margin-top: 52px;
+    
+    margin-right: 20px;
 }
 
 .slider__js_margin {
-    margin-top: 277px;
+    margin-top: 46px;
 }
 
 .photo__margin {
@@ -418,7 +418,11 @@ button:active {
     color: #2D2D2D;
     margin-left: 155px;
 }
-
+.flex-wrap{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
 .clock {
     margin-right: 18px;
     margin-left: -162px;
@@ -725,7 +729,9 @@ button:active {
     }
 
     .button__photo_margin {
-        margin-left: 700px;
+        margin-left: 0px;
+        margin-top: 0;
+        margin-right: 20px;
     }
 
     .slider__js {
@@ -835,6 +841,13 @@ button:active {
         height: 50px;
     }
 
+        .car__rent {
+            width: 350px;
+        }
+
+                .car__rent-two {
+                    width: 350px;
+                }
     .search-flex {
         position: relative;
         top: 108px;
@@ -989,11 +1002,12 @@ button:active {
     }
 
     .img-two {
-        top: 234.63px;
+        top: 546px;
     }
 
+    
     .services__text_margin {
-        margin-top: 1100px;
+        margin-top: 1200px;
     }
 
     .button__photo_margin {
