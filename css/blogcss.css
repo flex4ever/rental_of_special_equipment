@@ -1,0 +1,125 @@
+@import url(./footer.css);
+@import url(../css/header.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1170px;
+}
+
+.work {
+    background: #F3F3F3;
+    height: 100%;
+    height: 100%;
+}
+
+.work__main-page {
+    padding-top: 30px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+
+}
+
+.work__obj-page {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #898989;
+}
+
+.all_header {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 141.69%;
+    color: #2D2D2D;
+}
+
+.all_cards {
+    margin-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.work__all {
+    margin-top: 63px;
+}
+
+.all_cards_card {
+    background: #FFFFFF;
+    width: 370px;
+    height: 500px;
+
+    margin-bottom: 30px;
+}
+
+.card_description {
+    padding-left: 22px;
+    margin-top: 15px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 142.19%;
+    color: #2D2D2D;
+    width: 288px;
+}
+
+.all_cards_see-more {
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 141.69%;
+    color: #2D2D2D;
+    width: 219px;
+    height: 50px;
+    border: 1px solid #FCB427;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.all_cards_button {
+    display: flex;
+    justify-content: center;
+}
+
+.work__header_description {
+    margin-top: 120px;
+    font-family: 'PT Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 141.69%;
+    color: #000000;
+}
+.header-description_explanation{
+    margin-top: 35px;
+    padding-bottom: 120px;
+}
+.explanation {
+    padding-bottom: 30px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 156.69%;
+    color: #000000;
+}
