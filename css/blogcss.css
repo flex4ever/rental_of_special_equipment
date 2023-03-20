@@ -31,6 +31,17 @@
 
 }
 
+.orange__block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+    margin-top: 20px;
+    background: #FCB427;
+    width: 203px;
+    height: 46px;
+}
+
 .work__obj-page {
     font-family: 'Montserrat';
     font-style: normal;
@@ -49,6 +60,15 @@
     color: #2D2D2D;
 }
 
+.text__block {
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 141.69%;
+    color: #FFFFFF;
+}
+
 .all_cards {
     margin-top: 80px;
     display: flex;
@@ -61,24 +81,36 @@
     margin-top: 63px;
 }
 
-.all_cards_card {
-    background: #FFFFFF;
-    width: 370px;
-    height: 500px;
-
-    margin-bottom: 30px;
-}
-
-.card_description {
-    padding-left: 22px;
-    margin-top: 15px;
+.arends {
+    margin-top: 16px;
+    margin-left: 30px;
+    width: 288px;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 142.19%;
     color: #2D2D2D;
+}
+
+.all_cards_card {
+    background: #FFFFFF;
+    width: 370px;
+    height: 689px;
+
+    margin-bottom: 30px;
+}
+
+.card_description {
+    margin-top: 20px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 156.69%;
+    color: #2D2D2D;
     width: 288px;
+    margin-left: 30px;
 }
 
 .all_cards_see-more {
@@ -110,10 +142,12 @@
     line-height: 141.69%;
     color: #000000;
 }
-.header-description_explanation{
+
+.header-description_explanation {
     margin-top: 35px;
     padding-bottom: 120px;
 }
+
 .explanation {
     padding-bottom: 30px;
     font-family: 'Montserrat';
