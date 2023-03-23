@@ -462,7 +462,7 @@ input[type='email'] {
     border: 0;
 }
 
-input:invalid{
+input:focus:invalid{
     border: 1px solid red;
 }
 
@@ -672,6 +672,9 @@ input:invalid{
         background: #FCB427;
         cursor: pointer;
         border: 0;
+    }
+    .contacts__btn:disabled{
+        width: 100%;
     }
 
     /*  */

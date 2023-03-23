@@ -419,13 +419,13 @@ input {
 
 .slider-two__buttons {
     display: flex;
-    width: 122px;
+    width: 140px;
     height: 40px;
     justify-content: space-between;
 }
 
 .activeBtn {
-
+    margin-left: 0;
     width: 40px;
     height: 40px;
     border: 1px solid #FF971D;
@@ -448,6 +448,7 @@ input {
 
 .slider-two__img-left {
     position: absolute;
+    left: 15px;
 }
 
 .slider-two__line-up {

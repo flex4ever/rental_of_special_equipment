@@ -1,3 +1,4 @@
+
 * {
     text-decoration: none;
     list-style: none;
@@ -742,7 +743,7 @@ button:active {
         margin-right: 10px;
         margin-left: 10px;
         flex-wrap: wrap;
-        height: 1450px;
+        height: 1300px;
     }
 
     .car__rent-two {

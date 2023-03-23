@@ -407,7 +407,9 @@
     .right-block_score-text {
         display: none;
     }
-
+    .container{
+        max-width: 298px;
+    }
     .right-block {
         display: none;
     }
