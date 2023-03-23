@@ -213,7 +213,7 @@ SD_right.addEventListener('click', () => {
         score_ = 0;
         SD_sliderLine.style.right = score_ + "px";
     }
-    score_ += 1385;
+    score_ += 1388;
     SD_sliderLine.style.right = score_ + "px";
     page_++;
     if (page_ == 8) {
