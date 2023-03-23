@@ -77,9 +77,9 @@ body {
 
 .img {
     position: absolute;
-    width: 870px;
+    width: 860px;
     height: 542px;
-    left: 748px;
+    left: 792px;
     top: 195px;
 }
 
@@ -225,15 +225,17 @@ button:active {
 .photo__margin {
     margin-top: 154px;
 }
-.image-roman{
+
+.image-roman {
     display: none;
 }
+
 .black-phone {
     width: 100%;
     height: 529px;
     background: rgb(43, 42, 42);
     margin-top: 154px;
-  
+
     background-repeat: no-repeat;
 }
 
@@ -623,24 +625,76 @@ button:active {
     display: flex;
     display: none;
 }
-.linetop{
-  
+
+.linetop {
+
     margin-top: 100px;
 }
-.linebot{
- 
-  margin-top: -1015px;
+
+.linebot {
+
+    margin-top: -1015px;
 }
+
+.block__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 353px;
+    height: 408px;
+}
+
+.block__card-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 353px;
+    height: 83px;
+    background: #FCB427;
+}
+
+.block__card-info-text {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 142.19%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.block__card-main {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.block__card-flex {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 @media (max-width: 780px) {
+    .container {
+        max-width: 738px;
+    }
+
     .company {
         margin-left: 16px;
     }
-.linetop{
-    display: none;
-}
-.linebot{
-    display: none;
-}
+
+    .linetop {
+        display: none;
+    }
+
+    .linebot {
+        display: none;
+    }
+
     .info-company__text {
         margin-left: 16px;
     }
@@ -652,7 +706,7 @@ button:active {
     .img-two {
 
         position: relative;
-        width: 742.71px;
+        width: 736.71px;
         height: 510.85px;
         left: 15px;
         top: 14.569999999999993px;
@@ -730,7 +784,7 @@ button:active {
     }
 
     .slider__js {
-        width: 780px;
+        width: 755px;
     }
 
     .block__car {
@@ -825,6 +879,18 @@ button:active {
         width: 353px;
     }
 
+    .white-phone {
+        height: 1480px;
+    }
+
+    .prew {
+        display: none;
+    }
+
+    .next {
+        display: none;
+    }
+
     .two-search-two {
         width: 350px;
         margin-top: 20px;
@@ -900,6 +966,51 @@ button:active {
         color: #000000;
     }
 
+    .block__card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 353px;
+        height: 408px;
+    }
+
+    .block__card-info {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 353px;
+        height: 83px;
+        background: #FCB427;
+    }
+
+    .block__card-info-text {
+        font-family: 'Montserrat', sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 142.19%;
+        text-align: center;
+        color: #FFFFFF;
+    }
+
+    .block__card-main {
+        margin-top: 100px;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row
+    }
+
+    .block__card-flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .block__card_margin {
+        margin-top: 30px;
+    }
+
     .ttt {
         margin-left: 11px;
     }
@@ -913,29 +1024,71 @@ button:active {
         line-height: 156.69%;
         color: #000000;
     }
-    .black-phone{
+
+    .black-phone {
         background-image: url(../img/palasa.png);
         height: 839px;
+        width: 100%;
     }
+    .slider__photo {
+        margin-right: 32px;
+        
+    }
+    
     
     .image-roman {
         display: block;
         margin-top: 170px;
         width: 100%;
     }
+
+    .services__text_margin {
+        margin-top: 70px;
+    }
 }
 
 
 @media (max-width: 320px) {
+    .services__text_margin-two {
+        margin-top: 1170px;
+    }
+
+    .block__card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 314px;
+        height: 408px;
+    }
+
+    .block__card-image {
+        width: 289px;
+        height: 266px;
+    }
+
+    .block__card-info {
+        width: 289px;
+    }
+
+    .block__card-main {
+        margin-top: -50px;
+        display: flex;
+        flex-direction: column;
+    }
+
     .slider__js {
         width: 288px;
     }
-    .linetop{
+
+    .linetop {
         display: none;
     }
-    .linebot{
+
+    .linebot {
         display: none;
     }
+
     .photo__rent {
         width: 290px;
     }
@@ -994,7 +1147,7 @@ button:active {
     }
 
     .services__text_margin {
-        margin-top: 1100px;
+        margin-top: 70px;
     }
 
     .button__photo_margin {
@@ -1034,20 +1187,25 @@ button:active {
         width: 290px;
         height: 50px;
     }
+
     .search-flex {
-       margin-top: 100px;
+        margin-top: 100px;
     }
+
     .contacts__block-text_many-two {
         display: block;
         width: 290px;
         margin-left: 15px;
     }
-    .search-flex{
-    width: 320px;
+
+    .search-flex {
+        width: 320px;
     }
+
     .yellow-block-and-text {
         width: 290px;
     }
+
     .search-flex {
         margin-left: 55px;
         margin-top: 385px;
