@@ -153,6 +153,7 @@
         display: flex;
         justify-content: space-evenly;
         flex-direction: column-reverse;
+        padding-left: 0;
     }
 
     .description_header_adaptive {
@@ -533,6 +534,7 @@
         display: flex;
         justify-content: space-evenly;
         flex-direction: column-reverse;
+        padding-left: 0;
     }
 
     .description-icons {

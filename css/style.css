@@ -335,7 +335,7 @@ a.right-block_button:active {
     display: flex;
     align-items: center;
     margin-bottom: 26px;
-
+    /* margin-right: 110px; */
 }
 
 .special-equipment_slider_buttons-lines {
